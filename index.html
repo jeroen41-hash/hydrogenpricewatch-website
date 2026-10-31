@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Hydrogen price tracker and news hub: grey, blue and green hydrogen cost indices, by-market comparisons, and the industry news behind the moves.">
+<title>HydrogenPriceWatch — Hydrogen Price Tracker &amp; News</title>
+<link rel="canonical" href="https://hydrogenpricewatch.com/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Google Analytics — replace G-XXXXXXXXXX once a GA4 property exists for this site -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <div class="sitehead">
+    <div class="logo">Hydrogen<span>Price</span>Watch</div>
+    <nav class="sitenav">
+      <a href="/" class="active">Prices</a>
+      <a href="/news.html">News</a>
+      <a href="/sources.html">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="eyebrow">Hydrogen market tracker</div>
+  <h1>Where hydrogen is priced, and what's moving it</h1>
+  <p class="lede">A read on grey, blue, and green hydrogen costs — tracked against electricity, gas, and carbon prices — plus the news that explains why the numbers move.</p>
+
+  <div class="snapshot" id="snapshot"></div>
+  <p style="margin-top:10px;"><span class="sample-tag">● sample data — see sources.html</span></p>
+</section>
+
+<section>
+  <div class="section-head">
+    <div>
+      <h2>Levelized cost by production pathway</h2>
+      <p>Illustrative trend, 2023–2030. Real version will be built from HYCLICX, HYDRIX, and CEGH index histories, converted to a common $/kg basis.</p>
+    </div>
+    <span class="sample-tag">sample data</span>
+  </div>
+
+  <div class="chart-wrap">
+    <div class="legend">
+      <span><span class="dot" style="background:var(--series-aqua)"></span>Green (electrolysis)</span>
+      <span><span class="dot" style="background:var(--series-blue)"></span>Blue (SMR+CCS)</span>
+      <span><span class="dot" style="background:var(--series-grey)"></span>Grey (unabated)</span>
+    </div>
+    <svg class="chart" viewBox="0 0 720 300" id="lcoh-chart"></svg>
+    <div id="tooltip"></div>
+  </div>
+</section>
+
+<section id="market">
+  <div class="section-head">
+    <div>
+      <h2>Prices by market</h2>
+      <p>Latest assessment per country, by production pathway.</p>
+    </div>
+    <span class="sample-tag">sample data</span>
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Market</th><th>Pathway</th><th>Source</th><th style="text-align:right;">Price</th></tr></thead>
+      <tbody id="market-table-body"></tbody>
+    </table>
+  </div>
+  <p id="market-footnote" style="font-size:12px;color:var(--muted);margin-top:8px;"></p>
+</section>
+
+<section id="news-preview">
+  <div class="section-head">
+    <div>
+      <h2>What's moving the market</h2>
+      <p>Latest from hydrogen industry feeds — production, policy, infrastructure, and investment. <a href="/news.html">All news →</a></p>
+    </div>
+  </div>
+  <div class="newsgrid" id="news-grid"></div>
+</section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  HydrogenPriceWatch is a layout preview — prices above are placeholders pending index integration; news is live once the scraper has run. © 2026.
+  <nav><a href="/sources.html">Sources &amp; methodology</a><a href="/privacy.html">Privacy</a></nav>
+</div></footer>
+
+<script src="/assets/js/site.js"></script>
+<script>
+  Promise.all([
+    HPW.loadJSON('/json/price_snapshot.json'),
+    HPW.loadJSON('/json/price_history.json'),
+    HPW.loadJSON('/json/market_prices.json'),
+    HPW.loadJSON('/json/news.json')
+  ]).then(function(results){
+    HPW.renderSnapshot(results[0]);
+    HPW.renderChart(results[1]);
+    HPW.renderMarketTable(results[2]);
+    HPW.renderNews(results[3], {targetId: 'news-grid', limit: 4});
+  });
+</script>
+</body>
+</html>

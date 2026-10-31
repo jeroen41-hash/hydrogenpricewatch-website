@@ -1,0 +1,8 @@
+{
+  "status": "placeholder",
+  "note": "Illustrative example values. Real snapshot will be populated once HYCLICX / HYDRIX / CEGH feeds are wired up — see scripts/price_scraper.py and sources.html.",
+  "updated": null,
+  "grey": {"label": "Grey · unabated SMR", "price": 1.42, "unit": "$/kg", "delta": 0.04, "direction": "up", "note": "gas price up"},
+  "blue": {"label": "Blue · SMR + CCS", "price": 2.71, "unit": "$/kg", "delta": 0.0, "direction": "flat", "note": "flat vs last week"},
+  "green": {"label": "Green · electrolysis", "price": 4.05, "unit": "$/kg", "delta": -0.11, "direction": "down", "note": "cheaper power hours"}
+}

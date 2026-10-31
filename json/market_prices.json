@@ -1,0 +1,13 @@
+{
+  "status": "placeholder",
+  "note": "Example rows only — see sources.html for which of these are real public indices vs. not-yet-integrated.",
+  "rows": [
+    {"market": "China", "pathway": "grey", "source": "Industry survey", "price": "$1.18/kg"},
+    {"market": "United States", "pathway": "grey", "source": "Industry survey", "price": "$1.45/kg"},
+    {"market": "India", "pathway": "grey", "source": "Industry survey", "price": "$1.52/kg"},
+    {"market": "Netherlands", "pathway": "green", "source": "HyXchange HYCLICX", "price": "€3.95/kg*"},
+    {"market": "Germany", "pathway": "green", "source": "EEX HYDRIX", "price": "€4.30/kg*"},
+    {"market": "Australia", "pathway": "green", "source": "Industry survey", "price": "$4.60/kg"}
+  ],
+  "footnote": "*HYCLICX and HYDRIX publish €/MWh (HHV); conversion to €/kg uses 33.3 kWh/kg HHV. Figures above are placeholders for layout only."
+}

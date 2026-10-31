@@ -1,0 +1,10 @@
+{
+  "status": "placeholder",
+  "note": "Illustrative LCOH trend, not a real index history yet.",
+  "years": [2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030],
+  "series": {
+    "green": [5.5, 5.0, 4.4, 3.9, 3.4, 3.0, 2.7, 2.4],
+    "blue":  [2.6, 2.6, 2.7, 2.7, 2.8, 2.8, 2.9, 2.9],
+    "grey":  [1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5]
+  }
+}

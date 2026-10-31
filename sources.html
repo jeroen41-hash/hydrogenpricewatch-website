@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Where HydrogenPriceWatch's price indices and news come from, and what's not yet integrated.">
+<title>Sources &amp; Methodology — HydrogenPriceWatch</title>
+<link rel="canonical" href="https://hydrogenpricewatch.com/sources.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <div class="sitehead">
+    <div class="logo">Hydrogen<span>Price</span>Watch</div>
+    <nav class="sitenav">
+      <a href="/">Prices</a>
+      <a href="/news.html">News</a>
+      <a href="/sources.html" class="active">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:10px;">
+  <div class="eyebrow">Methodology</div>
+  <h1>Sources &amp; methodology</h1>
+  <p class="lede">Everything on this site is built from indices and reports that are public, or available on request. This page says which is which today.</p>
+</section>
+
+<section>
+  <div class="section-head"><div><h2>Price indices</h2></div></div>
+  <div class="sourcelist">
+    <div class="sourcerow"><span class="name">HyXchange HYCLICX</span><span class="desc">Dutch electrolysis marginal-cost indicator, €/MWh HHV. Daily automated "PLUS" series published since 1 January 2026; hourly data available on request from the HyXchange team — no public API. <strong>Status: not yet integrated.</strong></span></div>
+    <div class="sourcerow"><span class="name">EEX HYDRIX</span><span class="desc">European Energy Exchange's real-time hydrogen price index, in XML/JSON/CSV. The EEX webshop states it is free of charge until further notice; terms should be re-checked before relying on it. <strong>Status: not yet integrated.</strong></span></div>
+    <div class="sourcerow"><span class="name">CEGH GreenHydrogen Index</span><span class="desc">Austrian cost-plus index for green hydrogen spot and forward periods. Public page shows current values; published specification (PDF). <strong>Status: not yet integrated.</strong></span></div>
+    <div class="sourcerow"><span class="name">Industry surveys</span><span class="desc">Country-level $/kg benchmarks (e.g. Expert Market Research) used for grey/blue/green comparisons outside Europe, where no public index exists. <strong>Status: not yet integrated.</strong></span></div>
+    <div class="sourcerow"><span class="name">Candidates under evaluation</span><span class="desc">IEA Global Hydrogen Review (free annual PDF) · S&amp;P Global Platts Hydrogen Price Wall (subscription; some infographics public).</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-head"><div><h2>News feeds</h2></div></div>
+  <p class="prose" style="color:var(--text-secondary);font-size:14.5px;">Aggregated by <code>scripts/news_scraper.py</code> via RSS, the same pattern used for the hydrogenshipbuilding.com news pipeline:</p>
+  <div class="sourcelist">
+    <div class="sourcerow"><span class="name">Hydrogen Insight</span><span class="desc">hydrogeninsight.com — production, policy, market intelligence.</span></div>
+    <div class="sourcerow"><span class="name">Hydrogen Fuel News</span><span class="desc">hydrogenfuelnews.com/feed</span></div>
+    <div class="sourcerow"><span class="name">Fuel Cells Works</span><span class="desc">fuelcellsworks.com/feed</span></div>
+    <div class="sourcerow"><span class="name">Hydrogen Europe</span><span class="desc">hydrogeneurope.eu/feed</span></div>
+    <div class="sourcerow"><span class="name">Hydrogen Central</span><span class="desc">hydrogen-central.com — industry news and market intelligence.</span></div>
+    <div class="sourcerow"><span class="name">Canary Media</span><span class="desc">canarymedia.com — hydrogen section.</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-head"><div><h2>Price snapshot &amp; chart (today's page)</h2></div></div>
+  <p class="prose" style="color:var(--text-secondary);font-size:14.5px;">The grey/blue/green snapshot cards and the LCOH trend chart on the home page are illustrative placeholders, not live data. They will switch to real figures once at least one of the indices above is wired into <code>scripts/price_scraper.py</code> and <code>json/price_snapshot.json</code> / <code>json/price_history.json</code> are populated on a schedule.</p>
+</section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  HydrogenPriceWatch. © 2026.
+  <nav><a href="/sources.html">Sources &amp; methodology</a><a href="/privacy.html">Privacy</a></nav>
+</div></footer>
+</body>
+</html>
