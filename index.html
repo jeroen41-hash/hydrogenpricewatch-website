@@ -44,6 +44,16 @@
   <p style="margin-top:10px;"><span class="sample-tag">● sample data — see sources.html</span></p>
 </section>
 
+<section id="cegh">
+  <div class="section-head">
+    <div>
+      <h2>CEGH GreenHydrogen Index (Austria)</h2>
+      <p>The first real, live number on this site — scraped directly from CEGH's public index page.</p>
+    </div>
+  </div>
+  <div id="cegh-index"></div>
+</section>
+
 <section>
   <div class="section-head">
     <div>
@@ -104,12 +114,14 @@
     HPW.loadJSON('/json/price_snapshot.json'),
     HPW.loadJSON('/json/price_history.json'),
     HPW.loadJSON('/json/market_prices.json'),
-    HPW.loadJSON('/json/news.json')
+    HPW.loadJSON('/json/news.json'),
+    HPW.loadJSON('/json/cegh_index.json')
   ]).then(function(results){
     HPW.renderSnapshot(results[0]);
     HPW.renderChart(results[1]);
     HPW.renderMarketTable(results[2]);
     HPW.renderNews(results[3], {targetId: 'news-grid', limit: 4});
+    HPW.renderCeghIndex(results[4]);
   });
 </script>
 </body>

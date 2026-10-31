@@ -136,11 +136,38 @@
     }).join('');
   }
 
+  function renderCeghIndex(data){
+    var el = document.getElementById('cegh-index');
+    if(!el) return;
+    if(!data || data.status !== 'ok'){
+      el.innerHTML = '<p style="color:var(--muted);padding:16px 2px;">CEGH index unavailable right now — run <code>scripts/price_scraper.py</code> to refresh.</p>';
+      return;
+    }
+    function row(item){
+      return '<tr><td>'+item.label+'</td><td>'+item.delivery_period+'</td>' +
+        '<td class="num">€'+item.eur_per_mwh.toFixed(2)+'</td>' +
+        '<td class="num">€'+item.eur_per_kg.toFixed(2)+'</td></tr>';
+    }
+    var mainRows = [data.ppa100, data.ppa40, data.spot].filter(Boolean).map(row).join('');
+    var forwardRows = (data.forward || []).map(function(f){
+      return '<tr><td>'+f.delivery_period+'</td><td>'+f.maturity+'</td>' +
+        '<td class="num">€'+f.eur_per_mwh.toFixed(2)+'</td>' +
+        '<td class="num">€'+f.eur_per_kg.toFixed(2)+'</td></tr>';
+    }).join('');
+
+    el.innerHTML =
+      '<p style="font-size:12.5px;color:var(--muted);margin-bottom:12px;">Published '+data.publication_date+' by CEGH · '+data.unit_basis+' · <a href="'+data.source_url+'" target="_blank" rel="noopener">source</a></p>' +
+      '<div class="tablewrap"><table><thead><tr><th>Index</th><th>Delivery period</th><th style="text-align:right;">€/MWh</th><th style="text-align:right;">€/kg</th></tr></thead><tbody>'+mainRows+'</tbody></table></div>' +
+      '<h3 style="font-size:14.5px;margin:20px 0 10px;font-family:var(--font-display);">Forward curve</h3>' +
+      '<div class="tablewrap"><table><thead><tr><th>Delivery period</th><th>Maturity</th><th style="text-align:right;">€/MWh</th><th style="text-align:right;">€/kg</th></tr></thead><tbody>'+forwardRows+'</tbody></table></div>';
+  }
+
   window.HPW = {
     loadJSON: function(path){ return fetch(path).then(function(r){ return r.json(); }); },
     renderSnapshot: renderSnapshot,
     renderChart: renderChart,
     renderMarketTable: renderMarketTable,
-    renderNews: renderNews
+    renderNews: renderNews,
+    renderCeghIndex: renderCeghIndex
   };
 })();

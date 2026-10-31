@@ -1,0 +1,80 @@
+{
+  "status": "ok",
+  "source": "CEGH GreenHydrogen Index",
+  "source_url": "https://www.cegh.at/en/greengas/cegh-greenhydrogen-index/",
+  "publication_date": "2026-10-30",
+  "updated": "2026-10-31T12:05:42Z",
+  "unit_basis": "EUR/MWh, High Heating Value (HHV)",
+  "conversion": {
+    "kwh_per_kg_hhv": 39.4,
+    "note": "eur_per_kg = eur_per_mwh * kwh_per_kg_hhv / 1000"
+  },
+  "ppa100": {
+    "label": "GreenHydrogen Index \u2014 PPA 100% (RED II / Delegated Act compliant)",
+    "delivery_period": "10-Year PPA Pay-as-Produced",
+    "eur_per_mwh": 169.287,
+    "eur_per_kg": 6.67
+  },
+  "ppa40": {
+    "label": "GreenHydrogen PPA 40 Index (not compliant)",
+    "delivery_period": "10-Year Pay-as-Produced",
+    "eur_per_mwh": 180.485,
+    "eur_per_kg": 7.11
+  },
+  "spot": {
+    "label": "GreenHydrogen Spot Index (not compliant)",
+    "delivery_period": "30-Oct-2026",
+    "eur_per_mwh": 450.249,
+    "eur_per_kg": 17.74
+  },
+  "forward": [
+    {
+      "delivery_period": "November 2026",
+      "maturity": "Month +1",
+      "eur_per_mwh": 367.598,
+      "eur_per_kg": 14.48
+    },
+    {
+      "delivery_period": "December 2026",
+      "maturity": "Month +2",
+      "eur_per_mwh": 360.012,
+      "eur_per_kg": 14.18
+    },
+    {
+      "delivery_period": "Q1 2027",
+      "maturity": "Quarter +1",
+      "eur_per_mwh": 338.36,
+      "eur_per_kg": 13.33
+    },
+    {
+      "delivery_period": "Summer 2027",
+      "maturity": "Season +1",
+      "eur_per_mwh": 205.869,
+      "eur_per_kg": 8.11
+    },
+    {
+      "delivery_period": "Winter 2027",
+      "maturity": "Season +2",
+      "eur_per_mwh": 257.387,
+      "eur_per_kg": 10.14
+    },
+    {
+      "delivery_period": "Calendar 2027",
+      "maturity": "Calendar +1",
+      "eur_per_mwh": 251.722,
+      "eur_per_kg": 9.92
+    },
+    {
+      "delivery_period": "Calendar 2028",
+      "maturity": "Calendar +2",
+      "eur_per_mwh": 193.871,
+      "eur_per_kg": 7.64
+    },
+    {
+      "delivery_period": "Calendar 2029",
+      "maturity": "Calendar +3",
+      "eur_per_mwh": 167.854,
+      "eur_per_kg": 6.61
+    }
+  ]
+}

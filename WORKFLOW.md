@@ -17,14 +17,23 @@ dependency for what's currently a 4-page site.
   from a local static server; JSON files validate; Python scripts compile.
   Not yet checked in an actual browser.
 
+- **CEGH GreenHydrogen Index** (`json/cegh_index.json`) — live. CEGH
+  publishes PPA 100% (RED II compliant), PPA 40, spot, and an 8-point
+  forward curve as plain server-rendered HTML tables, no API or headless
+  browser needed. `scripts/price_scraper.py` scrapes it with
+  requests + BeautifulSoup and converts EUR/MWh (HHV) to EUR/kg using
+  39.4 kWh/kg HHV (not 33.3, which is the LHV figure — an earlier draft
+  of this project used the wrong one). Shown on the home page as its own
+  "Live index" box, and as the Austria row in the by-market table.
+
 ## What's still a placeholder
 
-- **Prices** (`json/price_snapshot.json`, `json/price_history.json`,
+- **Grey/blue/green snapshot cards, LCOH trend chart, and the rest of the
+  by-market table** (`json/price_snapshot.json`, `json/price_history.json`,
   `json/market_prices.json`) — hand-written illustrative numbers, clearly
-  tagged `"status": "placeholder"` in the JSON and "sample data" on the
-  page. `scripts/price_scraper.py` is a stub explaining why: none of
-  HYCLICX / HYDRIX / CEGH can be pulled automatically yet (see
-  `sources.html`).
+  tagged `"status": "placeholder"`/`"mixed"` in the JSON and "sample data"
+  on the page. None of HYCLICX / HYDRIX can be pulled automatically yet
+  (see `sources.html`).
 
 ## Manual steps before this can go live
 
@@ -43,15 +52,15 @@ dependency for what's currently a 4-page site.
    no public API.
 6. **EEX HYDRIX** — confirm the webshop's "free of charge" terms still
    hold and get an account/token.
-7. **CEGH index scraper** — write the actual HTML scrape against the
-   public page once someone's looked at its real markup.
 
-## Running the news scraper
+## Running the scrapers
 
 ```
 cd "/media/jeroen/work/16_Claude/hydrogenpricewatch"
 ./venv/bin/python3 scripts/news_scraper.py
+./venv/bin/python3 scripts/price_scraper.py
 ```
 
-Not yet on a cron — add a line on the Debian PC's ship-registry crontab
-pattern once this repo is cloned there, same as the other site scrapers.
+Not yet on a cron — add both lines on the Debian PC's ship-registry
+crontab pattern once this repo is cloned there, same as the other site
+scrapers. CEGH updates its page once a day, so a daily cron is enough.
