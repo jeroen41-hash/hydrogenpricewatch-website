@@ -74,6 +74,16 @@
   </div>
 </section>
 
+<section id="iea">
+  <div class="section-head">
+    <div>
+      <h2>Production cost ranges by pathway</h2>
+      <p>Real published ranges, not a continuous price feed — IEA's cost estimates by technology, republished by ACER.</p>
+    </div>
+  </div>
+  <div id="iea-costs"></div>
+</section>
+
 <section id="market">
   <div class="section-head">
     <div>
@@ -115,13 +125,15 @@
     HPW.loadJSON('/json/price_history.json'),
     HPW.loadJSON('/json/market_prices.json'),
     HPW.loadJSON('/json/news.json'),
-    HPW.loadJSON('/json/cegh_index.json')
+    HPW.loadJSON('/json/cegh_index.json'),
+    HPW.loadJSON('/json/iea_hydrogen_costs.json')
   ]).then(function(results){
     HPW.renderSnapshot(results[0]);
     HPW.renderChart(results[1]);
     HPW.renderMarketTable(results[2]);
     HPW.renderNews(results[3], {targetId: 'news-grid', limit: 4});
     HPW.renderCeghIndex(results[4]);
+    HPW.renderIeaCosts(results[5]);
   });
 </script>
 </body>

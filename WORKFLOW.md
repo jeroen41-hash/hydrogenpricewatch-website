@@ -26,6 +26,9 @@ dependency for what's currently a 4-page site.
   of this project used the wrong one). Shown on the home page as its own
   "Live index" box, and as the Austria row in the by-market table.
 
+- **IEA production cost ranges** (`json/iea_hydrogen_costs.json`) — real, but not live. ACER's CHEST portal republishes the full IEA Global Hydrogen Review dataset as a plain server-rendered HTML table (`#datasetTable1535`), no login or CSV-export flow needed. `scripts/iea_cost_scraper.py` scrapes it and groups technologies into grey/blue/green EUR/kg ranges for 2024 vs. a 2030 projection. Shown on the home page as "Production cost ranges by pathway."
+- **Other sources researched and ruled out**: China's SMM "Hydrogen Price Index" has real numbers but an explicit no-copying notice plus a partial paywall. Japan/Korea have no free hydrogen $/kg index (Argus/Platts price ammonia, not hydrogen, subscription-only). EU Hydrogen Bank and UK HAR auction clearing prices are real €/£-per-kg numbers but one-off events — good news-feed material, not a continuous price series; not built yet.
+
 ## What's still a placeholder
 
 - **Grey/blue/green snapshot cards, LCOH trend chart, and the rest of the
@@ -59,8 +62,11 @@ dependency for what's currently a 4-page site.
 cd "/media/jeroen/work/16_Claude/hydrogenpricewatch"
 ./venv/bin/python3 scripts/news_scraper.py
 ./venv/bin/python3 scripts/price_scraper.py
+./venv/bin/python3 scripts/iea_cost_scraper.py
 ```
 
-Not yet on a cron — add both lines on the Debian PC's ship-registry
+Not yet on a cron — add these lines on the Debian PC's ship-registry
 crontab pattern once this repo is cloned there, same as the other site
-scrapers. CEGH updates its page once a day, so a daily cron is enough.
+scrapers. CEGH updates its page daily; the IEA/ACER data only changes
+when a new Global Hydrogen Review edition comes out, so a weekly or
+monthly run is plenty for that one.

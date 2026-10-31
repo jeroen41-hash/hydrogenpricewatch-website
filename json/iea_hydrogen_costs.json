@@ -1,0 +1,53 @@
+{
+  "status": "ok",
+  "source": "IEA Global Hydrogen Review 2025 (via ACER CHEST)",
+  "source_url": "https://aegis.acer.europa.eu/chest/dataitems/972/view",
+  "unit": "EUR2024/kg",
+  "updated": "2026-10-31T12:41:09Z",
+  "note": "2030 figures are IEA projections (States Energy Policies scenario in the 2025 edition), not forecasts specific to this site.",
+  "pathways": {
+    "grey": {
+      "technologies": [
+        "Natural gas without CCUS",
+        "Coal without CCUS"
+      ],
+      "2024": {
+        "min": 0.74,
+        "max": 4.07
+      },
+      "2030": {
+        "min": 0.65,
+        "max": 4.43
+      }
+    },
+    "blue": {
+      "technologies": [
+        "Natural gas with CCUS",
+        "Coal with CCUS"
+      ],
+      "2024": {
+        "min": 1.39,
+        "max": 4.62
+      },
+      "2030": {
+        "min": 1.2,
+        "max": 4.25
+      }
+    },
+    "green": {
+      "technologies": [
+        "Solar PV",
+        "Wind onshore",
+        "Wind offshore"
+      ],
+      "2024": {
+        "min": 3.14,
+        "max": 24.85
+      },
+      "2030": {
+        "min": 2.12,
+        "max": 18.02
+      }
+    }
+  }
+}

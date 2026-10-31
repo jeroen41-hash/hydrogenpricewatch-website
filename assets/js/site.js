@@ -162,12 +162,38 @@
       '<div class="tablewrap"><table><thead><tr><th>Delivery period</th><th>Maturity</th><th style="text-align:right;">€/MWh</th><th style="text-align:right;">€/kg</th></tr></thead><tbody>'+forwardRows+'</tbody></table></div>';
   }
 
+  function renderIeaCosts(data){
+    var el = document.getElementById('iea-costs');
+    if(!el) return;
+    if(!data || data.status !== 'ok'){
+      el.innerHTML = '<p style="color:var(--muted);padding:16px 2px;">Benchmark unavailable right now — run <code>scripts/iea_cost_scraper.py</code> to refresh.</p>';
+      return;
+    }
+    var pillClass = {grey:'pill-grey', blue:'pill-blue', green:'pill-green'};
+    var order = ['grey','blue','green'];
+    var rows = order.map(function(key){
+      var p = data.pathways[key];
+      if(!p || !p['2024'] || !p['2030']) return '';
+      var label = key.charAt(0).toUpperCase()+key.slice(1);
+      return '<tr>' +
+        '<td><span class="typepill '+pillClass[key]+'">'+label+'</span></td>' +
+        '<td style="color:var(--text-secondary);font-size:13px;">'+p.technologies.join(', ')+'</td>' +
+        '<td class="num">€'+p['2024'].min.toFixed(2)+'–'+p['2024'].max.toFixed(2)+'</td>' +
+        '<td class="num">€'+p['2030'].min.toFixed(2)+'–'+p['2030'].max.toFixed(2)+'</td>' +
+        '</tr>';
+    }).join('');
+    el.innerHTML =
+      '<div class="tablewrap"><table><thead><tr><th>Pathway</th><th>Technologies</th><th style="text-align:right;">2024 range (€/kg)</th><th style="text-align:right;">2030 projected (€/kg)</th></tr></thead><tbody>'+rows+'</tbody></table></div>' +
+      '<p style="font-size:12px;color:var(--muted);margin-top:8px;">Source: '+data.source+' · <a href="'+data.source_url+'" target="_blank" rel="noopener">data</a> · '+data.note+'</p>';
+  }
+
   window.HPW = {
     loadJSON: function(path){ return fetch(path).then(function(r){ return r.json(); }); },
     renderSnapshot: renderSnapshot,
     renderChart: renderChart,
     renderMarketTable: renderMarketTable,
     renderNews: renderNews,
-    renderCeghIndex: renderCeghIndex
+    renderCeghIndex: renderCeghIndex,
+    renderIeaCosts: renderIeaCosts
   };
 })();
