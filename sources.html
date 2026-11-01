@@ -67,7 +67,7 @@
 
 <section>
   <div class="section-head"><div><h2>Price snapshot &amp; chart (today's page)</h2></div></div>
-  <p class="prose" style="color:var(--text-secondary);font-size:14.5px;">The grey/blue/green snapshot cards and the LCOH trend chart on the home page are illustrative placeholders, not live data. They will switch to real figures once at least one of the indices above is wired into <code>scripts/price_scraper.py</code> and <code>json/price_snapshot.json</code> / <code>json/price_history.json</code> are populated on a schedule.</p>
+  <p class="prose" style="color:var(--text-secondary);font-size:14.5px;">The home page's snapshot cards and chart are built from real data by <code>scripts/build_homepage_data.py</code>: the green card and forward-curve chart come from CEGH (live), and the grey/blue cards come from the IEA benchmark (real, but not live — it only changes with a new Global Hydrogen Review edition). The by-market table only lists markets with a verified source, currently Austria; more will be added as HYCLICX/HYDRIX access is secured.</p>
 </section>
 
 </div>

@@ -41,7 +41,7 @@
   <p class="lede">A read on grey, blue, and green hydrogen costs — tracked against electricity, gas, and carbon prices — plus the news that explains why the numbers move.</p>
 
   <div class="snapshot" id="snapshot"></div>
-  <p style="margin-top:10px;"><span class="sample-tag">● sample data — see sources.html</span></p>
+  <p style="margin-top:10px;font-size:12px;color:var(--muted);">Green is a live index; grey and blue are IEA's latest published cost benchmark, not a live price — see <a href="/sources.html">sources.html</a>.</p>
 </section>
 
 <section id="cegh">
@@ -57,18 +57,12 @@
 <section>
   <div class="section-head">
     <div>
-      <h2>Levelized cost by production pathway</h2>
-      <p>Illustrative trend, 2023–2030. Real version will be built from HYCLICX, HYDRIX, and CEGH index histories, converted to a common $/kg basis.</p>
+      <h2>Green hydrogen forward curve (Austria)</h2>
+      <p>Real forward prices from CEGH's public index — spot, then where the market expects Austrian green hydrogen costs to go through 2029.</p>
     </div>
-    <span class="sample-tag">sample data</span>
   </div>
 
   <div class="chart-wrap">
-    <div class="legend">
-      <span><span class="dot" style="background:var(--series-aqua)"></span>Green (electrolysis)</span>
-      <span><span class="dot" style="background:var(--series-blue)"></span>Blue (SMR+CCS)</span>
-      <span><span class="dot" style="background:var(--series-grey)"></span>Grey (unabated)</span>
-    </div>
     <svg class="chart" viewBox="0 0 720 300" id="lcoh-chart"></svg>
     <div id="tooltip"></div>
   </div>
@@ -88,9 +82,8 @@
   <div class="section-head">
     <div>
       <h2>Prices by market</h2>
-      <p>Latest assessment per country, by production pathway.</p>
+      <p>Markets with a verified source only — this grows as more feeds are secured.</p>
     </div>
-    <span class="sample-tag">sample data</span>
   </div>
   <div class="tablewrap">
     <table>
@@ -114,7 +107,7 @@
 </div>
 
 <footer class="site"><div class="wrap">
-  HydrogenPriceWatch is a layout preview — prices above are placeholders pending index integration; news is live once the scraper has run. © 2026.
+  HydrogenPriceWatch tracks real indices where they exist (CEGH, IEA) and labels benchmarks separately from live prices. © 2026.
   <nav><a href="/sources.html">Sources &amp; methodology</a><a href="/privacy.html">Privacy</a></nav>
 </div></footer>
 

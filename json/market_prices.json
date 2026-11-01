@@ -1,14 +1,12 @@
 {
-  "status": "mixed",
-  "note": "Austria row is real, scraped from CEGH (see the live index box above). The rest are still placeholders — see sources.html.",
+  "status": "ok",
+  "note": "Only markets with a verified public or semi-public source are listed. More will be added as additional feeds (HyXchange HYCLICX, EEX HYDRIX) are secured \u2014 see sources.html.",
   "rows": [
-    {"market": "Austria", "pathway": "green", "source": "CEGH GreenHydrogen Index (live)", "price": "€6.67/kg"},
-    {"market": "China", "pathway": "grey", "source": "Industry survey — placeholder", "price": "$1.18/kg"},
-    {"market": "United States", "pathway": "grey", "source": "Industry survey — placeholder", "price": "$1.45/kg"},
-    {"market": "India", "pathway": "grey", "source": "Industry survey — placeholder", "price": "$1.52/kg"},
-    {"market": "Netherlands", "pathway": "green", "source": "HyXchange HYCLICX — placeholder", "price": "€3.95/kg*"},
-    {"market": "Germany", "pathway": "green", "source": "EEX HYDRIX — placeholder", "price": "€4.30/kg*"},
-    {"market": "Australia", "pathway": "green", "source": "Industry survey — placeholder", "price": "$4.60/kg"}
-  ],
-  "footnote": "*HYCLICX and HYDRIX publish €/MWh (HHV); conversion to €/kg would use 39.4 kWh/kg HHV (not 33.3, which is the LHV figure). Non-Austria rows above are still placeholders for layout only."
+    {
+      "market": "Austria",
+      "pathway": "green",
+      "source": "CEGH GreenHydrogen Index (live)",
+      "price": "\u20ac6.67/kg"
+    }
+  ]
 }

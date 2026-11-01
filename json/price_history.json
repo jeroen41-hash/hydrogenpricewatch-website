@@ -1,10 +1,46 @@
 {
-  "status": "placeholder",
-  "note": "Illustrative LCOH trend, not a real index history yet.",
-  "years": [2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030],
-  "series": {
-    "green": [5.5, 5.0, 4.4, 3.9, 3.4, 3.0, 2.7, 2.4],
-    "blue":  [2.6, 2.6, 2.7, 2.7, 2.8, 2.8, 2.9, 2.9],
-    "grey":  [1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5]
-  }
+  "status": "ok",
+  "source": "CEGH GreenHydrogen Index \u2014 forward curve",
+  "source_url": "https://www.cegh.at/en/greengas/cegh-greenhydrogen-index/",
+  "updated": "2026-10-31T12:05:42Z",
+  "unit": "\u20ac/kg",
+  "note": "Real forward curve for Austrian green hydrogen (RED II non-compliant spot/forward series). Not a prediction for other markets.",
+  "points": [
+    {
+      "label": "Spot (30-Oct-2026)",
+      "value": 17.74
+    },
+    {
+      "label": "November 2026",
+      "value": 14.48
+    },
+    {
+      "label": "December 2026",
+      "value": 14.18
+    },
+    {
+      "label": "Q1 2027",
+      "value": 13.33
+    },
+    {
+      "label": "Summer 2027",
+      "value": 8.11
+    },
+    {
+      "label": "Winter 2027",
+      "value": 10.14
+    },
+    {
+      "label": "Calendar 2027",
+      "value": 9.92
+    },
+    {
+      "label": "Calendar 2028",
+      "value": 7.64
+    },
+    {
+      "label": "Calendar 2029",
+      "value": 6.61
+    }
+  ]
 }

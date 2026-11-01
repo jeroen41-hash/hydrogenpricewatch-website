@@ -1,8 +1,31 @@
 {
-  "status": "placeholder",
-  "note": "Illustrative example values. Real snapshot will be populated once HYCLICX / HYDRIX / CEGH feeds are wired up — see scripts/price_scraper.py and sources.html.",
-  "updated": null,
-  "grey": {"label": "Grey · unabated SMR", "price": 1.42, "unit": "$/kg", "delta": 0.04, "direction": "up", "note": "gas price up"},
-  "blue": {"label": "Blue · SMR + CCS", "price": 2.71, "unit": "$/kg", "delta": 0.0, "direction": "flat", "note": "flat vs last week"},
-  "green": {"label": "Green · electrolysis", "price": 4.05, "unit": "$/kg", "delta": -0.11, "direction": "down", "note": "cheaper power hours"}
+  "status": "ok",
+  "updated": "2026-11-01T08:50:12.250823+00:00",
+  "note": "Green is a live market index (CEGH). Grey and blue are IEA's latest published cost benchmark \u2014 a real figure, but not a live price.",
+  "grey": {
+    "label": "Grey \u00b7 unabated SMR/coal",
+    "kind": "benchmark",
+    "min": 0.74,
+    "max": 4.07,
+    "unit": "\u20ac/kg",
+    "year": 2024,
+    "source": "IEA Global Hydrogen Review 2025"
+  },
+  "blue": {
+    "label": "Blue \u00b7 SMR/coal + CCUS",
+    "kind": "benchmark",
+    "min": 1.39,
+    "max": 4.62,
+    "unit": "\u20ac/kg",
+    "year": 2024,
+    "source": "IEA Global Hydrogen Review 2025"
+  },
+  "green": {
+    "label": "Green \u00b7 electrolysis (Austria)",
+    "kind": "live",
+    "price": 6.67,
+    "unit": "\u20ac/kg",
+    "source": "CEGH GreenHydrogen Index \u2014 PPA 100%",
+    "as_of": "2026-10-30"
+  }
 }

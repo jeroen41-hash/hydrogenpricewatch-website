@@ -1,11 +1,5 @@
 // Shared rendering for the home page: price snapshot, LCOH chart, market table, news preview.
 (function(){
-  function fmtDelta(d, direction){
-    if(direction === 'flat' || !d) return '— flat vs last week';
-    var arrow = direction === 'up' ? '▲' : '▼';
-    return arrow + ' ' + Math.abs(d).toFixed(2);
-  }
-
   function renderSnapshot(data){
     var el = document.getElementById('snapshot');
     if(!el || !data) return;
@@ -14,54 +8,56 @@
     el.innerHTML = order.map(function(key){
       var d = data[key];
       if(!d) return '';
-      var deltaClass = d.direction === 'up' ? 'up' : (d.direction === 'down' ? 'down' : '');
+      var priceHtml, noteHtml;
+      if(d.kind === 'live'){
+        priceHtml = '€' + d.price.toFixed(2) + '<span style="font-size:14px;color:var(--muted);">/kg</span>';
+        noteHtml = '<span class="sample-tag" style="font-size:10px;">live</span> ' + d.source + ' · ' + d.as_of;
+      } else {
+        priceHtml = '€' + d.min.toFixed(2) + '–' + d.max.toFixed(2) + '<span style="font-size:14px;color:var(--muted);">/kg</span>';
+        noteHtml = '<span class="sample-tag" style="font-size:10px;">' + d.year + ' benchmark</span> ' + d.source;
+      }
       return '<div class="card">' +
         '<div class="label"><span class="dot" style="background:' + colorVar[key] + '"></span>' + d.label + '</div>' +
-        '<div class="price">' + (d.unit && d.unit.indexOf('$') === 0 ? '$' : '') + d.price.toFixed(2) + '<span style="font-size:14px;color:var(--muted);">/kg</span></div>' +
-        '<div class="delta ' + deltaClass + '">' + fmtDelta(d.delta, d.direction) + (d.note ? ' — ' + d.note : '') + '</div>' +
+        '<div class="price">' + priceHtml + '</div>' +
+        '<div class="delta">' + noteHtml + '</div>' +
         '</div>';
     }).join('');
   }
 
   function renderChart(data){
     var svg = document.getElementById('lcoh-chart');
-    if(!svg || !data) return;
-    var years = data.years, series = data.series;
-    var n = years.length;
+    if(!svg || !data || !data.points) return;
+    var points = data.points;
+    var n = points.length;
     var left = 60, right = 680, top = 20, bottom = 260;
-    var minV = 1.5, maxV = 6.0;
+    var values = points.map(function(p){ return p.value; });
+    var rawMin = Math.min.apply(null, values), rawMax = Math.max.apply(null, values);
+    var pad = (rawMax - rawMin) * 0.15 || 1;
+    var minV = Math.max(0, Math.floor(rawMin - pad)), maxV = Math.ceil(rawMax + pad);
     function x(i){ return left + (right-left) * i / (n-1); }
     function y(v){ return top + (maxV - v) / (maxV - minV) * (bottom-top); }
 
+    var step = Math.max(1, Math.round((maxV - minV) / 5));
     var gridHtml = '', labelHtml = '';
-    [2,3,4,5,6].forEach(function(v){
+    for(var v = minV; v <= maxV; v += step){
       var yy = y(v);
       gridHtml += '<line class="gridline" x1="'+left+'" y1="'+yy+'" x2="'+right+'" y2="'+yy+'"></line>';
-      labelHtml += '<text class="axislabel" x="'+(left-8)+'" y="'+(yy+3)+'" text-anchor="end">$'+v+'</text>';
-    });
-
-    function poly(key){
-      return series[key].map(function(v,i){ return x(i).toFixed(1)+','+y(v).toFixed(1); }).join(' ');
+      labelHtml += '<text class="axislabel" x="'+(left-8)+'" y="'+(yy+3)+'" text-anchor="end">€'+v+'</text>';
     }
 
-    var colorVar = {green:'var(--series-aqua)', blue:'var(--series-blue)', grey:'var(--series-grey)'};
-    var lines = ['green','blue','grey'].map(function(key){
-      return '<polyline fill="none" stroke="'+colorVar[key]+'" stroke-width="2.5" stroke-linecap="round" points="'+poly(key)+'"></polyline>';
-    }).join('');
+    var poly = points.map(function(p,i){ return x(i).toFixed(1)+','+y(p.value).toFixed(1); }).join(' ');
+    var line = '<polyline fill="none" stroke="var(--series-aqua)" stroke-width="2.5" stroke-linecap="round" points="'+poly+'"></polyline>';
+    var lastP = points[points.length-1];
+    var endLabel = '<text class="endlabel" x="'+(right+6)+'" y="'+(y(lastP.value)+4).toFixed(1)+'" fill="var(--series-aqua)">€'+lastP.value.toFixed(2)+'</text>';
 
-    var endLabels = ['green','blue','grey'].map(function(key){
-      var vals = series[key];
-      var lastV = vals[vals.length-1];
-      return '<text class="endlabel" x="'+(right+6)+'" y="'+(y(lastV)+4).toFixed(1)+'" fill="'+colorVar[key]+'">$'+lastV.toFixed(2)+'</text>';
-    }).join('');
-
-    var yearLabels = years.map(function(yr,i){
-      return '<text x="'+x(i).toFixed(1)+'" y="288">'+yr+'</text>';
+    var xLabels = points.map(function(p,i){
+      var short = p.label.replace('Calendar ', 'Cal ').replace('November', 'Nov').replace('December', 'Dec');
+      return '<text x="'+x(i).toFixed(1)+'" y="288">'+short+'</text>';
     }).join('');
 
     svg.innerHTML =
-      gridHtml + labelHtml + lines + endLabels +
-      '<g class="axislabel" text-anchor="middle">' + yearLabels + '</g>' +
+      gridHtml + labelHtml + line + endLabel +
+      '<g class="axislabel" text-anchor="middle" style="font-size:9px;">' + xLabels + '</g>' +
       '<line class="hoverline" id="hoverline" x1="'+left+'" y1="10" x2="'+left+'" y2="265"></line>' +
       '<g id="hitcols"></g>';
 
@@ -82,11 +78,8 @@
           hoverline.setAttribute('x1', x(i)); hoverline.setAttribute('x2', x(i));
           hoverline.style.opacity = 1;
           tooltip.innerHTML =
-            '<div style="font-weight:600;margin-bottom:4px;">'+years[i]+'</div>' +
-            ['green','blue','grey'].map(function(key){
-              var label = key.charAt(0).toUpperCase()+key.slice(1);
-              return '<div class="row"><span>'+label+'</span><span>$'+series[key][i].toFixed(2)+'</span></div>';
-            }).join('');
+            '<div style="font-weight:600;margin-bottom:4px;">'+points[i].label+'</div>' +
+            '<div class="row"><span>Green (Austria)</span><span>€'+points[i].value.toFixed(2)+'</span></div>';
           var ctm = svg.getScreenCTM();
           if(ctm && wrap){
             var pt = svg.createSVGPoint(); pt.x = x(i); pt.y = 0;

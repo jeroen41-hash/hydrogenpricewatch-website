@@ -29,14 +29,26 @@ dependency for what's currently a 4-page site.
 - **IEA production cost ranges** (`json/iea_hydrogen_costs.json`) — real, but not live. ACER's CHEST portal republishes the full IEA Global Hydrogen Review dataset as a plain server-rendered HTML table (`#datasetTable1535`), no login or CSV-export flow needed. `scripts/iea_cost_scraper.py` scrapes it and groups technologies into grey/blue/green EUR/kg ranges for 2024 vs. a 2030 projection. Shown on the home page as "Production cost ranges by pathway."
 - **Other sources researched and ruled out**: China's SMM "Hydrogen Price Index" has real numbers but an explicit no-copying notice plus a partial paywall. Japan/Korea have no free hydrogen $/kg index (Argus/Platts price ammonia, not hydrogen, subscription-only). EU Hydrogen Bank and UK HAR auction clearing prices are real €/£-per-kg numbers but one-off events — good news-feed material, not a continuous price series; not built yet.
 
-## What's still a placeholder
+## Snapshot cards, forward-curve chart, and by-market table are now real
 
-- **Grey/blue/green snapshot cards, LCOH trend chart, and the rest of the
-  by-market table** (`json/price_snapshot.json`, `json/price_history.json`,
-  `json/market_prices.json`) — hand-written illustrative numbers, clearly
-  tagged `"status": "placeholder"`/`"mixed"` in the JSON and "sample data"
-  on the page. None of HYCLICX / HYDRIX can be pulled automatically yet
-  (see `sources.html`).
+`scripts/build_homepage_data.py` derives `json/price_snapshot.json`,
+`json/price_history.json`, and `json/market_prices.json` from the two real
+scraped sources (`cegh_index.json`, `iea_hydrogen_costs.json`) — no more
+hand-written placeholder numbers:
+
+- **Green** snapshot card + the home page chart = CEGH's live PPA100 price
+  and real forward curve (Austria only).
+- **Grey/blue** snapshot cards = IEA's 2024 cost benchmark range (real
+  published figures, but not a live price — only changes with a new
+  Global Hydrogen Review edition).
+- **By-market table** only lists Austria (the one market with a verified
+  source); the fabricated China/US/India/Netherlands/Germany/Australia
+  rows were removed rather than left as fake numbers. More rows get added
+  as HYCLICX/HYDRIX access is secured.
+
+Run this script after `price_scraper.py` and `iea_cost_scraper.py` (it
+reads their output). None of HYCLICX / HYDRIX can be pulled automatically
+yet (see `sources.html`).
 
 ## Manual steps before this can go live
 
@@ -63,7 +75,11 @@ cd "/media/jeroen/work/16_Claude/hydrogenpricewatch"
 ./venv/bin/python3 scripts/news_scraper.py
 ./venv/bin/python3 scripts/price_scraper.py
 ./venv/bin/python3 scripts/iea_cost_scraper.py
+./venv/bin/python3 scripts/build_homepage_data.py
 ```
+
+`build_homepage_data.py` must run last — it reads the output of the two
+scrapers above and regenerates the snapshot/chart/market-table JSON.
 
 Not yet on a cron — add these lines on the Debian PC's ship-registry
 crontab pattern once this repo is cloned there, same as the other site
