@@ -70,9 +70,26 @@ yet (see `sources.html`).
 
 ## Running the scrapers
 
+**Live on cron (2026-11-03)**: the Debian PC (`jeroen@192.168.2.62`) has its
+own clone at `~/hydrogenpricewatch-website/`, using the shared
+`~/ship-registry/venv/` (already has requests/feedparser/beautifulsoup4 —
+no separate venv needed). `~/hydrogenpricewatch-website/run_scrapers.sh`
+does `git pull` → runs all four scripts in order → `git add -A && commit
+&& push` only if something actually changed. Cron entry:
+
 ```
-cd "/media/jeroen/work/16_Claude/hydrogenpricewatch"
-./venv/bin/python3 scripts/news_scraper.py
+10 7 * * * ~/hydrogenpricewatch-website/run_scrapers.sh >> ~/hydrogenpricewatch-website/cron.log 2>&1
+```
+
+One daily run covers all three sources: CEGH updates its page daily, news
+is obviously daily, and the IEA/ACER benchmark only changes per Global
+Hydrogen Review edition (a no-op most days, which is fine).
+
+Manual run (either checkout, e.g. for testing):
+
+```
+cd "/media/jeroen/work/16_Claude/hydrogenpricewatch"   # or ~/hydrogenpricewatch-website on the Debian PC
+./venv/bin/python3 scripts/news_scraper.py             # (or ~/ship-registry/venv/bin/python3 on the Debian PC)
 ./venv/bin/python3 scripts/price_scraper.py
 ./venv/bin/python3 scripts/iea_cost_scraper.py
 ./venv/bin/python3 scripts/build_homepage_data.py
@@ -80,9 +97,3 @@ cd "/media/jeroen/work/16_Claude/hydrogenpricewatch"
 
 `build_homepage_data.py` must run last — it reads the output of the two
 scrapers above and regenerates the snapshot/chart/market-table JSON.
-
-Not yet on a cron — add these lines on the Debian PC's ship-registry
-crontab pattern once this repo is cloned there, same as the other site
-scrapers. CEGH updates its page daily; the IEA/ACER data only changes
-when a new Global Hydrogen Review edition comes out, so a weekly or
-monthly run is plenty for that one.
