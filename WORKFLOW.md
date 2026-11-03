@@ -8,11 +8,15 @@ dependency for what's currently a 4-page site.
 ## What's real right now
 
 - **News** (`json/news.json`) — live. `scripts/news_scraper.py` pulls RSS
-  from Hydrogen Fuel News, Fuel Cells Works, Hydrogen Europe, and Hydrogen
-  Central (30 items, real headlines as of today). Hydrogen Insight's feed
-  URL (`hydrogeninsight.com/rss`) currently fails to parse — needs a fixed
-  feed URL or a `requests`-with-User-Agent fetch before handing to
-  `feedparser` (likely bot-blocked).
+  from Hydrogen Fuel News, Fuel Cells Works, Hydrogen Europe, Hydrogen
+  Central, and pv magazine's hydrogen tag feed (30 items, real headlines,
+  all 5 feeds parsing cleanly as of 2026-11-03). Hydrogen Insight was
+  dropped: its feed now redirects through a login/paywall gate and its
+  robots.txt explicitly disallows AI bots (`anthropic-ai`, `Claude-Web`,
+  `ClaudeBot`) — a deliberate site-operator signal, not something to
+  route around. gasworld.com has the same explicit disallow. h2-view.com's
+  feed parses but is empty. canarymedia.com has no hydrogen-specific feed
+  and its sitewide feed is too low-signal for hydrogen content.
 - Site renders correctly: all 4 pages + CSS/JS/JSON assets return HTTP 200
   from a local static server; JSON files validate; Python scripts compile.
   Not yet checked in an actual browser.

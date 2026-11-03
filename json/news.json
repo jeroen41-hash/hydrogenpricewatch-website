@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated": "2026-11-03T17:45:34Z",
+  "updated": "2026-11-03T17:53:05Z",
   "items": [
     {
       "title": "New guide sets out roadmap for scaling hydrogen for data centres",
@@ -164,6 +164,13 @@
       "date": "2026-10-31"
     },
     {
+      "title": "The Hydrogen Stream: Finnish researchers increase voltage in alkaline systems to cut costs by 10-15%",
+      "url": "https://www.pv-magazine.com/2026/10/30/the-hydrogen-stream-finnish-researchers-increase-voltage-in-alkaline-systems-to-cut-costs-by-10-15/",
+      "source": "pv magazine (hydrogen tag)",
+      "category": "Technology",
+      "date": "2026-10-30"
+    },
+    {
       "title": "Industry mission is clear as European Hydrogen Week 2026 ends",
       "url": "https://hydrogeneurope.eu/industry-mission-is-clear-as-european-hydrogen-week-2026-ends/",
       "source": "Hydrogen Europe",
@@ -176,6 +183,13 @@
       "source": "Hydrogen Europe",
       "category": "Policy",
       "date": "2026-10-26"
+    },
+    {
+      "title": "The Hydrogen Stream: Italian company unveils seven-layer PEM electrolyzer assembly to reduce iridium use",
+      "url": "https://www.pv-magazine.com/2026/10/23/the-hydrogen-stream-italian-company-unveils-seven-layer-pem-electrolyzer-assembly-to-reduce-iridium-use/",
+      "source": "pv magazine (hydrogen tag)",
+      "category": "Technology",
+      "date": "2026-10-23"
     },
     {
       "title": "OMV begins electrolyser installation at 140MW Austrian hydrogen project",
@@ -192,25 +206,11 @@
       "date": "2026-10-21"
     },
     {
-      "title": "100 more signatures added to RFNBO industry letter \u2013 bringing total to 270 companies",
-      "url": "https://hydrogeneurope.eu/100-more-signatures-added-to-rfnbo-industry-letter/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-10-19"
-    },
-    {
-      "title": "Finland Issues First Guarantees of Origin as Green Hydrogen-Based E-Methane Enters Gas Grid",
-      "url": "https://hydrogeneurope.eu/finland-issues-first-guarantees-of-origin-as-green-hydrogen-based-e-methane-enters-gas-grid/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Stargate Hydrogen boosts electrolyser efficiency to 48kWh/kg with new catalyst",
-      "url": "https://hydrogeneurope.eu/stargate-hydrogen-boosts-electrolyser-efficiency-to-48kwh-kg-with-new-catalyst/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-10-15"
+      "title": "Holosolis secures EU Innovation Fund support for 5 GW solar factory",
+      "url": "https://www.pv-magazine.com/2026/10/20/holosolis-secures-eu-innovation-fund-support-for-5-gw-solar-factory/",
+      "source": "pv magazine (hydrogen tag)",
+      "category": "Technology",
+      "date": "2026-10-20"
     }
   ]
 }

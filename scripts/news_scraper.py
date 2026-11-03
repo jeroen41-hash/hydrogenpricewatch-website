@@ -9,12 +9,21 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_PATH = os.path.join(ROOT, "json", "news.json")
 
 FEEDS = {
-    "Hydrogen Insight": ("https://www.hydrogeninsight.com/rss", "Market"),
     "Hydrogen Fuel News": ("https://www.hydrogenfuelnews.com/feed", "Market"),
     "Fuel Cells Works": ("https://fuelcellsworks.com/feed/", "Infrastructure"),
     "Hydrogen Europe": ("https://hydrogeneurope.eu/feed/", "Policy"),
     "Hydrogen Central": ("https://hydrogen-central.com/feed/", "Market"),
+    "pv magazine (hydrogen tag)": ("https://www.pv-magazine.com/tag/hydrogen/feed/", "Technology"),
 }
+# Hydrogen Insight (hydrogeninsight.com/rss) dropped 2026-11-03: the feed
+# now redirects through a Zephr SSO/paywall gate and 404s, and their
+# robots.txt explicitly disallows AI bots (anthropic-ai, Claude-Web,
+# ClaudeBot) — a deliberate signal from the site operator, not scraped
+# around. gasworld.com has the same explicit AI-bot disallow and was never
+# added for the same reason. h2-view.com's feed parses but returns zero
+# entries (empty). canarymedia.com has no hydrogen-specific feed and its
+# full-site feed yields ~1 hydrogen-relevant item per 100 — too low signal
+# to be worth a keyword filter.
 
 MAX_ITEMS = 30
 PER_FEED = 10
