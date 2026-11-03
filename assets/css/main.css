@@ -56,6 +56,8 @@ nav.sitenav{display:flex;gap:18px;font-family:var(--font-mono);font-size:12.5px;
 nav.sitenav a{color:var(--text-secondary);}
 nav.sitenav a:hover{color:var(--accent);text-decoration:none;}
 nav.sitenav a.active{color:var(--accent);}
+nav.sitenav a.nav-sister{color:var(--accent);border:1px solid var(--accent);border-radius:3px;padding:2px 7px;margin-left:4px;}
+nav.sitenav a.nav-sister:hover{background:var(--accent);color:var(--accent-ink);}
 
 .hero{padding:46px 0 30px;border-bottom:1px solid var(--line);}
 .hero h1{font-size:clamp(26px,4.4vw,40px);font-weight:800;line-height:1.1;max-width:18ch;}
