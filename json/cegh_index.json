@@ -3,7 +3,7 @@
   "source": "CEGH GreenHydrogen Index",
   "source_url": "https://www.cegh.at/en/greengas/cegh-greenhydrogen-index/",
   "publication_date": "2026-11-03",
-  "updated": "2026-11-03T17:45:36Z",
+  "updated": "2026-11-04T06:10:10Z",
   "unit_basis": "EUR/MWh, High Heating Value (HHV)",
   "conversion": {
     "kwh_per_kg_hhv": 39.4,
