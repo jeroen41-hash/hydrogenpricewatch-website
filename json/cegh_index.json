@@ -2,8 +2,8 @@
   "status": "ok",
   "source": "CEGH GreenHydrogen Index",
   "source_url": "https://www.cegh.at/en/greengas/cegh-greenhydrogen-index/",
-  "publication_date": "2026-11-03",
-  "updated": "2026-11-04T06:10:10Z",
+  "publication_date": "2026-11-04",
+  "updated": "2026-11-05T06:10:09Z",
   "unit_basis": "EUR/MWh, High Heating Value (HHV)",
   "conversion": {
     "kwh_per_kg_hhv": 39.4,
@@ -12,69 +12,69 @@
   "ppa100": {
     "label": "GreenHydrogen Index \u2014 PPA 100% (RED II / Delegated Act compliant)",
     "delivery_period": "10-Year PPA Pay-as-Produced",
-    "eur_per_mwh": 170.257,
-    "eur_per_kg": 6.71
+    "eur_per_mwh": 171.023,
+    "eur_per_kg": 6.74
   },
   "ppa40": {
     "label": "GreenHydrogen PPA 40 Index (not compliant)",
     "delivery_period": "10-Year Pay-as-Produced",
-    "eur_per_mwh": 179.506,
-    "eur_per_kg": 7.07
+    "eur_per_mwh": 178.732,
+    "eur_per_kg": 7.04
   },
   "spot": {
     "label": "GreenHydrogen Spot Index (not compliant)",
-    "delivery_period": "3-Nov-2026",
-    "eur_per_mwh": 488.766,
-    "eur_per_kg": 19.26
+    "delivery_period": "4-Nov-2026",
+    "eur_per_mwh": 488.235,
+    "eur_per_kg": 19.24
   },
   "forward": [
     {
       "delivery_period": "December 2026",
       "maturity": "Month +1",
-      "eur_per_mwh": 354.542,
-      "eur_per_kg": 13.97
+      "eur_per_mwh": 353.707,
+      "eur_per_kg": 13.94
     },
     {
       "delivery_period": "January 2027",
       "maturity": "Month +2",
-      "eur_per_mwh": 354.226,
-      "eur_per_kg": 13.96
+      "eur_per_mwh": 356.528,
+      "eur_per_kg": 14.05
     },
     {
       "delivery_period": "Q1 2027",
       "maturity": "Quarter +1",
-      "eur_per_mwh": 330.775,
-      "eur_per_kg": 13.03
+      "eur_per_mwh": 326.77,
+      "eur_per_kg": 12.87
     },
     {
       "delivery_period": "Summer 2027",
       "maturity": "Season +1",
-      "eur_per_mwh": 203.005,
-      "eur_per_kg": 8.0
+      "eur_per_mwh": 197.825,
+      "eur_per_kg": 7.79
     },
     {
       "delivery_period": "Winter 2027",
       "maturity": "Season +2",
-      "eur_per_mwh": 250.834,
-      "eur_per_kg": 9.88
+      "eur_per_mwh": 243.889,
+      "eur_per_kg": 9.61
     },
     {
       "delivery_period": "Calendar 2027",
       "maturity": "Calendar +1",
-      "eur_per_mwh": 247.161,
-      "eur_per_kg": 9.74
+      "eur_per_mwh": 241.298,
+      "eur_per_kg": 9.51
     },
     {
       "delivery_period": "Calendar 2028",
       "maturity": "Calendar +2",
-      "eur_per_mwh": 189.356,
-      "eur_per_kg": 7.46
+      "eur_per_mwh": 184.288,
+      "eur_per_kg": 7.26
     },
     {
       "delivery_period": "Calendar 2029",
       "maturity": "Calendar +3",
-      "eur_per_mwh": 162.784,
-      "eur_per_kg": 6.41
+      "eur_per_mwh": 161.977,
+      "eur_per_kg": 6.38
     }
   ]
 }
