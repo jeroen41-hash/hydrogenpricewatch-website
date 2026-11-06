@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated": "2026-11-05T06:10:11.180898+00:00",
+  "updated": "2026-11-06T06:10:12.627211+00:00",
   "note": "Green is a live market index (CEGH). Grey and blue are IEA's latest published cost benchmark \u2014 a real figure, but not a live price.",
   "grey": {
     "label": "Grey \u00b7 unabated SMR/coal",
@@ -23,9 +23,9 @@
   "green": {
     "label": "Green \u00b7 electrolysis (Austria)",
     "kind": "live",
-    "price": 6.74,
+    "price": 6.72,
     "unit": "\u20ac/kg",
     "source": "CEGH GreenHydrogen Index \u2014 PPA 100%",
-    "as_of": "2026-11-04"
+    "as_of": "2026-11-05"
   }
 }

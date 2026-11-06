@@ -38,3 +38,25 @@ Wrote 30 items to /home/jeroen/hydrogenpricewatch-website/json/news.json
 Wrote /home/jeroen/hydrogenpricewatch-website/json/cegh_index.json (status=ok)
 Wrote /home/jeroen/hydrogenpricewatch-website/json/iea_hydrogen_costs.json (status=ok, 42 rows scraped)
 ok: wrote price_snapshot.json, price_history.json, market_prices.json
+[main e3570ca] Automated data refresh 2026-11-05T06:10:11Z
+ 7 files changed, 95 insertions(+), 72 deletions(-)
+To github.com:jeroen41-hash/hydrogenpricewatch-website.git
+   f352ea1..e3570ca  main -> main
+pushed update
+From github.com:jeroen41-hash/hydrogenpricewatch-website
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Fetching Hydrogen Fuel News ...
+  got 10 items
+Fetching Fuel Cells Works ...
+  got 10 items
+Fetching Hydrogen Europe ...
+  got 10 items
+Fetching Hydrogen Central ...
+  got 10 items
+Fetching pv magazine (hydrogen tag) ...
+  got 10 items
+Wrote 30 items to /home/jeroen/hydrogenpricewatch-website/json/news.json
+Wrote /home/jeroen/hydrogenpricewatch-website/json/cegh_index.json (status=ok)
+Wrote /home/jeroen/hydrogenpricewatch-website/json/iea_hydrogen_costs.json (status=ok, 42 rows scraped)
+ok: wrote price_snapshot.json, price_history.json, market_prices.json

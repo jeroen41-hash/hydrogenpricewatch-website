@@ -1,75 +1,159 @@
 {
   "status": "ok",
-  "updated": "2026-11-05T06:10:07Z",
+  "updated": "2026-11-06T06:10:09Z",
   "items": [
     {
-      "title": "MAN Hydrogen Combustion Truck Enters Service With Dutch Construction Company",
-      "url": "https://fuelcellsworks.com/2026/11/02/h2/man-hydrogen-combustion-truck-enters-service-with-dutch-construction-company",
+      "title": "Asahi Kasei Signs MOU with Power to Hydrogen to Accelerate Commercialization of AEM Water Electrolysis for Clean Hydrogen Production",
+      "url": "https://hydrogen-central.com/asahi-kasei-signs-mou-with-power-to-hydrogen-to-accelerate-commercialization-of-aem-water-electrolysis-for-clean-hydrogen-production/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Nippon Steel \u2013 Successful Test Production of Direct Reduced Iron from Low-Grade Iron Ore Using 100% Hydrogen",
+      "url": "https://hydrogen-central.com/nippon-steel-successful-test-production-of-direct-reduced-iron-from-low-grade-iron-ore-using-100-hydrogen/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Everfuel signs Hydrogen Bank grant agreement and reserves cross-border pipeline capacity, advancing Denmark\u2019s role as Germany\u2019s first significant RFNBO import corridor by 2031",
+      "url": "https://hydrogen-central.com/everfuel-signs-hydrogen-bank-grant-agreement-and-reserves-cross-border-pipeline-capacity-advancing-denmarks-role-as-germanys-first-significant-rfnbo-import-corridor-by-2031/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Towngas and DBS Hong Kong sign MoU to launch the first sustainable financing initiative for Hong Kong\u2019s green hydrogen projects",
+      "url": "https://hydrogen-central.com/towngas-and-dbs-hong-kong-sign-mou-to-launch-the-first-sustainable-financing-initiative-for-hong-kongs-green-hydrogen-projects/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Fuel for thought: hydrogen-powered vehicle trials",
+      "url": "https://hydrogen-central.com/fuel-for-thought-hydrogen-powered-vehicle-trials/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Ballard FCmove\u00ae-SC fuel cell engine makes series-production debut in next-generation Solaris Urbino 12 hydrogen bus",
+      "url": "https://hydrogen-central.com/ballard-fcmove-sc-fuel-cell-engine-makes-series-production-debut-in-next-generation-solaris-urbino-12-hydrogen-bus/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Transmashholding Completes First Russian Hydrogen Fuel-Cell Train Ahead of 2027 Sakhalin Trials",
+      "url": "https://fuelcellsworks.com/2026/10/28/electrolyzer/transmashholding-completes-first-russian-hydrogen-fuel-cell-train-ahead-of-2027-sakhalin-trials",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Houpu as a China Leading HRS Supplier: Fixed, Mobile and Integrated Hydrogen Refueling Configurations",
+      "url": "https://fuelcellsworks.com/2026/11/03/electrolyzer/houpu-as-a-china-leading-hrs-supplier-fixed-mobile-and-integrated-hydrogen-refueling-configurations",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Japan Tests Building-Scale Green Hydrogen System at Tokyo High-Rise",
+      "url": "https://fuelcellsworks.com/2026/11/05/fuel-cells/japan-tests-building-scale-green-hydrogen-system-at-tokyo-high-rise",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Aramco Backs Finnish Methane-Pyrolysis Start-Up ROTOBOOST to Scale Low-Carbon Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/11/05/h2/aramco-backs-finnish-methane-pyrolysis-start-up-rotoboost-to-scale-low-carbon-hydrogen",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Mainz Halts Hydrogen Pipeline After Buyers Fail to Commit, Leaving \u20ac7M in State Funding Unused",
+      "url": "https://fuelcellsworks.com/2026/11/02/h2/mainz-halts-hydrogen-pipeline-after-buyers-fail-to-commit-leaving-7m-in-state-funding-unused",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "H2FCP and California Hydrogen Car Owners Association Partner to Strengthen the Hydrogen Driver Experience",
+      "url": "https://fuelcellsworks.com/2026/11/05/fuel-cells/h2fcp-and-california-hydrogen-car-owners-association-partner-to-strengthen-the-hydrogen-driver-experience",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Air Products: $3.2Bn Write-Off After Pulling Out of Clean Hydrogen Projects",
+      "url": "https://fuelcellsworks.com/2026/11/05/h2/air-products-3-2bn-write-off-after-pulling-out-of-clean-hydrogen-projects",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Jeonbuk National University Study Reveals Path to Carbon-Negative Hydrogen Production",
+      "url": "https://fuelcellsworks.com/2026/11/05/h2/jeonbuk-national-university-study-reveals-path-to-carbon-negative-hydrogen-production",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Italy Starts Up 453Kg/Day Green Hydrogen Hub to Fuel New Bus Fleet",
+      "url": "https://fuelcellsworks.com/2026/11/02/electrolyzer/italy-starts-up-453kg-day-green-hydrogen-hub-to-fuel-new-bus-fleet",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Amber Grid Plans Upgrade to Measure Hydrogen in Lithuania\u2019s Gas Network",
+      "url": "https://fuelcellsworks.com/2026/11/05/h2/amber-grid-plans-upgrade-to-measure-hydrogen-in-lithuania-s-gas-network",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Denmark reaches major green hydrogen milestone as German agreements advance pipeline",
+      "url": "https://hydrogeneurope.eu/denmark-reaches-major-green-hydrogen-milestone-as-german-agreements-advance-pipeline/",
+      "source": "Hydrogen Europe",
+      "category": "Policy",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Tokyo tests solar-powered hydrogen production at high-rise office complex",
+      "url": "https://www.pv-magazine.com/2026/11/05/tokyo-tests-solar-powered-hydrogen-production-at-high-rise-office-complex/",
+      "source": "pv magazine (hydrogen tag)",
+      "category": "Technology",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Prominence Energy Limited Reports Hydrogen Indicators from Eyre Peninsula Study",
+      "url": "http://www.hydrogenfuelnews.com/prominence-energy-limited-reports-hydrogen-indicators-from-eyre-peninsula-study/8577016/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-04"
     },
     {
-      "title": "Solid Oxide Fuel-Cell Developer Serenity Power Wins Backing From New C$2m Canadian Climate Fund",
-      "url": "https://fuelcellsworks.com/2026/11/03/electrolyzer/solid-oxide-fuel-cell-developer-serenity-power-wins-backing-from-new-c-2m-canadian-climate-fund",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
+      "title": "Sonatrach Partners with World Bank Institutions on Hydrogen and Emission Reduction Initiatives",
+      "url": "http://www.hydrogenfuelnews.com/sonatrach-partners-with-world-bank-institutions-on-hydrogen-and-emission-reducti/8577015/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-04"
     },
     {
-      "title": "Bremerhaven Drops Hydrogen Truck Testing Facilities as Costs Double and Demand Falls",
-      "url": "https://fuelcellsworks.com/2026/11/02/h2/bremerhaven-drops-hydrogen-truck-testing-facilities-as-costs-double-and-demand-falls",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
+      "title": "Asahi Kasei and Power to Hydrogen Collaborate on Next-Gen Anion Exchange Membrane Electrolysis",
+      "url": "http://www.hydrogenfuelnews.com/asahi-kasei-and-power-to-hydrogen-collaborate-on-next-gen-anion-exchange-membran/8577014/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-04"
     },
     {
-      "title": "Nippon Steel Produces More Than 1,000 Tonnes of DRI From Low-Grade Ore Using 100% Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/11/04/h2/nippon-steel-produces-more-than-1-000-tonnes-of-dri-from-low-grade-ore-using-100-percent-hydrogen",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "\u2018Investment Decisions Are Not Being Made\u2019: GET H2 Urges Germany to Fix Hydrogen Market Rules",
-      "url": "https://fuelcellsworks.com/2026/11/02/h2/investment-decisions-are-not-being-made-get-h2-urges-germany-to-fix-hydrogen-market-rules",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "Prominence Energy Finds Hydrogen in All 28 CSIRO-Tested Rock Samples at South Australia Project",
-      "url": "https://fuelcellsworks.com/2026/11/04/h2/prominence-energy-finds-hydrogen-in-all-28-csiro-tested-rock-samples-at-south-australia-project",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "Green Hydrogen Becomes Less Competitive as Weekly Production Costs Rise",
-      "url": "https://fuelcellsworks.com/2026/11/03/green-hydrogen/green-hydrogen-becomes-less-competitive-as-weekly-production-costs-rise",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "KHNP and EPRI Join Forces on Clean Hydrogen Research, Demonstration and Commercialisation",
-      "url": "https://fuelcellsworks.com/2026/11/04/h2/khnp-and-epri-join-forces-on-clean-hydrogen-research-demonstration-and-commercialisation",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "Danish Green Hydrogen Pipeline to Germany Clears Crucial 500MW Capacity Threshold",
-      "url": "https://fuelcellsworks.com/2026/11/04/h2/danish-green-hydrogen-pipeline-to-germany-clears-crucial-500mw-capacity-threshold",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "Spanish Startup ATOM H2 Moves Hydrogen Storage System to Commercial Deployment With Ovarro Telemetry",
-      "url": "https://fuelcellsworks.com/2026/11/02/electrolyzer/spanish-startup-atom-h2-moves-hydrogen-storage-system-to-commercial-deployment-with-ovarro-telemetry",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
+      "title": "Exploring Natural Hydrogen Wealth: Mantle8's Groundbreaking Initiative in Ras Al Khaimah",
+      "url": "http://www.hydrogenfuelnews.com/exploring-natural-hydrogen-wealth-mantle8-s-groundbreaking-initiative-in-ras-al-/8577013/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-04"
     },
     {
@@ -122,95 +206,11 @@
       "date": "2026-11-02"
     },
     {
-      "title": "Germany's Hydrogen Core Network Secures Over 6 GW in Capacity Reservations",
-      "url": "http://www.hydrogenfuelnews.com/germany-s-hydrogen-core-network-secures-over-6-gw-in-capacity-reservations/8576995/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "Gold Hydrogen's Ramsay Project Shows Promising Natural Hydrogen Flow",
-      "url": "http://www.hydrogenfuelnews.com/gold-hydrogen-s-ramsay-project-shows-promising-natural-hydrogen-flow/8576994/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "SFC Energy Reports Growth Driven by Ukraine Defense Order and Semiconductor Demand",
-      "url": "http://www.hydrogenfuelnews.com/sfc-energy-reports-growth-driven-by-ukraine-defense-order-and-semiconductor-dema/8576993/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-02"
-    },
-    {
       "title": "Europe must build its hydrogen market",
       "url": "https://hydrogeneurope.eu/europe-must-build-its-hydrogen-market/",
       "source": "Hydrogen Europe",
       "category": "Policy",
       "date": "2026-11-02"
-    },
-    {
-      "title": "Dynelectro\u2019s 250kW SOEC Electrolyser Completes 1,000 Hours of Operation in Iceland",
-      "url": "https://hydrogeneurope.eu/dynelectros-250kw-soec-electrolyser-completes-1000-hours-of-operation-in-iceland/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "China's Green Hydrogen Strategy: Leading the Charge in Sustainable Energy Production",
-      "url": "http://www.hydrogenfuelnews.com/china-s-green-hydrogen-strategy-leading-the-charge-in-sustainable-energy-product/8576983/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-01"
-    },
-    {
-      "title": "The Hydrogen Stream: Finnish researchers increase voltage in alkaline systems to cut costs by 10-15%",
-      "url": "https://www.pv-magazine.com/2026/10/30/the-hydrogen-stream-finnish-researchers-increase-voltage-in-alkaline-systems-to-cut-costs-by-10-15/",
-      "source": "pv magazine (hydrogen tag)",
-      "category": "Technology",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Industry mission is clear as European Hydrogen Week 2026 ends",
-      "url": "https://hydrogeneurope.eu/industry-mission-is-clear-as-european-hydrogen-week-2026-ends/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Hydrogen Europe Quarterly Q3 2026 issue available now",
-      "url": "https://hydrogeneurope.eu/hydrogen-europe-quarterly-q3-2026-issue-available-now/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-10-26"
-    },
-    {
-      "title": "The Hydrogen Stream: Italian company unveils seven-layer PEM electrolyzer assembly to reduce iridium use",
-      "url": "https://www.pv-magazine.com/2026/10/23/the-hydrogen-stream-italian-company-unveils-seven-layer-pem-electrolyzer-assembly-to-reduce-iridium-use/",
-      "source": "pv magazine (hydrogen tag)",
-      "category": "Technology",
-      "date": "2026-10-23"
-    },
-    {
-      "title": "OMV begins electrolyser installation at 140MW Austrian hydrogen project",
-      "url": "https://hydrogeneurope.eu/omv-begins-electrolyser-installation-at-140mw-austrian-hydrogen-project/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Germany reveals measures to support hydrogen ramp-up",
-      "url": "https://hydrogeneurope.eu/germany-reveals-measures-to-support-hydrogen-ramp-up/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Holosolis secures EU Innovation Fund support for 5 GW solar factory",
-      "url": "https://www.pv-magazine.com/2026/10/20/holosolis-secures-eu-innovation-fund-support-for-5-gw-solar-factory/",
-      "source": "pv magazine (hydrogen tag)",
-      "category": "Technology",
-      "date": "2026-10-20"
     }
   ]
 }
