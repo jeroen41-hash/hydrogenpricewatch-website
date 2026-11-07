@@ -2,7 +2,7 @@
   "status": "ok",
   "source": "CEGH GreenHydrogen Index \u2014 forward curve",
   "source_url": "https://www.cegh.at/en/greengas/cegh-greenhydrogen-index/",
-  "updated": "2026-11-06T06:10:11Z",
+  "updated": "2026-11-07T06:10:08Z",
   "unit": "\u20ac/kg",
   "note": "Real forward curve for Austrian green hydrogen (RED II non-compliant spot/forward series). Not a prediction for other markets.",
   "points": [

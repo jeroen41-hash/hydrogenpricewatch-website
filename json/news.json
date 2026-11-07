@@ -1,7 +1,84 @@
 {
   "status": "ok",
-  "updated": "2026-11-06T06:10:09Z",
+  "updated": "2026-11-07T06:10:07Z",
   "items": [
+    {
+      "title": "Google Confirms $17 Billion Wyoming Data Centre Investment With 702MW Bloom Fuel Cells and Carbon Capture",
+      "url": "https://fuelcellsworks.com/2026/11/05/clean-energy/google-confirms-17-billion-wyoming-data-centre-investment-with-702mw-bloom-fuel-cells-and-carbon-capture",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "South Korea Opens 39.8MW Fuel-Cell Plant Featuring First Commercial Domestic SOFC",
+      "url": "https://fuelcellsworks.com/2026/11/05/electrolyzer/south-korea-opens-39-8mw-fuel-cell-plant-featuring-first-commercial-domestic-sofc",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "German Researchers Run Converted Diesel Engine on Waste-Derived Hydrogen-Rich Gas at Just 40% H\u2082",
+      "url": "https://fuelcellsworks.com/2026/11/02/h2/german-researchers-run-converted-diesel-engine-on-waste-derived-hydrogen-rich-gas-at-just-40-percent-h",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Algeria\u2019s Sonatrach Teams Up With World Bank on Green Hydrogen and Methane Reduction",
+      "url": "https://fuelcellsworks.com/2026/11/06/h2/algeria-s-sonatrach-teams-up-with-world-bank-on-green-hydrogen-and-methane-reduction",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Thyssengas Opens Ground in Xanten for Hydrogen Pipeline Inspection Prep",
+      "url": "https://fuelcellsworks.com/2026/11/05/h2/thyssengas-opens-ground-in-xanten-for-hydrogen-pipeline-inspection-prep",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Hydrogen UK Warns of Fresh Uncertainty as Government Expected to Scale Back Strategy and Funding",
+      "url": "https://fuelcellsworks.com/2026/11/06/h2/hydrogen-uk-warns-of-fresh-uncertainty-as-government-expected-toscales-back-strategy-and-funding",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "KAIST Develops Ruthenium Catalyst that Matches Platinum in Hydrogen Production Using One-Quarter as Much Precious Metal",
+      "url": "https://fuelcellsworks.com/2026/10/28/h2/kaist-develops-ruthenium-catalyst-that-matches-platinum-in-hydrogen-production-using-one-quarter-as-much-precious-metal",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Austria Premiere: Natural Gas Pipeline Converted to 100 Percent Hydrogen for the First Time",
+      "url": "https://fuelcellsworks.com/2026/11/06/h2/austria-premiere-natural-gas-pipeline-converted-to-100-percent-hydrogen-for-the-first-time",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Kamigumi and pHydrogen to Produce Green Hydrogen From Seawater at Tokyo Port in Three-Year Demonstration",
+      "url": "https://fuelcellsworks.com/2026/11/05/green-hydrogen/kamigumi-and-phydrogen-to-produce-green-hydrogen-from-seawater-at-tokyo-port-in-three-year-demonstration",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "UK Introduces Hydrogen Power Subsidy Legislation More Than Three Years After First Policy Pledge",
+      "url": "https://fuelcellsworks.com/2026/11/06/h2/uk-introduces-hydrogen-power-subsidy-legislation-more-than-three-years-after-first-policy-pledge",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "The Hydrogen Stream: H2 turbines can push LCOHS to around $0.62/kg",
+      "url": "https://www.pv-magazine.com/2026/11/06/the-hydrogen-stream-h2-turbines-can-push-lcohs-to-around-0-62-kg/",
+      "source": "pv magazine (hydrogen tag)",
+      "category": "Technology",
+      "date": "2026-11-06"
+    },
     {
       "title": "Asahi Kasei Signs MOU with Power to Hydrogen to Accelerate Commercialization of AEM Water Electrolysis for Clean Hydrogen Production",
       "url": "https://hydrogen-central.com/asahi-kasei-signs-mou-with-power-to-hydrogen-to-accelerate-commercialization-of-aem-water-electrolysis-for-clean-hydrogen-production/",
@@ -45,80 +122,24 @@
       "date": "2026-11-06"
     },
     {
-      "title": "Transmashholding Completes First Russian Hydrogen Fuel-Cell Train Ahead of 2027 Sakhalin Trials",
-      "url": "https://fuelcellsworks.com/2026/10/28/electrolyzer/transmashholding-completes-first-russian-hydrogen-fuel-cell-train-ahead-of-2027-sakhalin-trials",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Houpu as a China Leading HRS Supplier: Fixed, Mobile and Integrated Hydrogen Refueling Configurations",
-      "url": "https://fuelcellsworks.com/2026/11/03/electrolyzer/houpu-as-a-china-leading-hrs-supplier-fixed-mobile-and-integrated-hydrogen-refueling-configurations",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Japan Tests Building-Scale Green Hydrogen System at Tokyo High-Rise",
-      "url": "https://fuelcellsworks.com/2026/11/05/fuel-cells/japan-tests-building-scale-green-hydrogen-system-at-tokyo-high-rise",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Aramco Backs Finnish Methane-Pyrolysis Start-Up ROTOBOOST to Scale Low-Carbon Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/11/05/h2/aramco-backs-finnish-methane-pyrolysis-start-up-rotoboost-to-scale-low-carbon-hydrogen",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Mainz Halts Hydrogen Pipeline After Buyers Fail to Commit, Leaving \u20ac7M in State Funding Unused",
-      "url": "https://fuelcellsworks.com/2026/11/02/h2/mainz-halts-hydrogen-pipeline-after-buyers-fail-to-commit-leaving-7m-in-state-funding-unused",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "H2FCP and California Hydrogen Car Owners Association Partner to Strengthen the Hydrogen Driver Experience",
-      "url": "https://fuelcellsworks.com/2026/11/05/fuel-cells/h2fcp-and-california-hydrogen-car-owners-association-partner-to-strengthen-the-hydrogen-driver-experience",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Air Products: $3.2Bn Write-Off After Pulling Out of Clean Hydrogen Projects",
-      "url": "https://fuelcellsworks.com/2026/11/05/h2/air-products-3-2bn-write-off-after-pulling-out-of-clean-hydrogen-projects",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Jeonbuk National University Study Reveals Path to Carbon-Negative Hydrogen Production",
-      "url": "https://fuelcellsworks.com/2026/11/05/h2/jeonbuk-national-university-study-reveals-path-to-carbon-negative-hydrogen-production",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Italy Starts Up 453Kg/Day Green Hydrogen Hub to Fuel New Bus Fleet",
-      "url": "https://fuelcellsworks.com/2026/11/02/electrolyzer/italy-starts-up-453kg-day-green-hydrogen-hub-to-fuel-new-bus-fleet",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Amber Grid Plans Upgrade to Measure Hydrogen in Lithuania\u2019s Gas Network",
-      "url": "https://fuelcellsworks.com/2026/11/05/h2/amber-grid-plans-upgrade-to-measure-hydrogen-in-lithuania-s-gas-network",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-05"
+      "title": "ARENA Backs Hadean Energy's Groundbreaking Hydrogen Pilot in Victoria",
+      "url": "http://www.hydrogenfuelnews.com/arena-backs-hadean-energy-s-groundbreaking-hydrogen-pilot-in-victoria/8577025/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-06"
     },
     {
       "title": "Denmark reaches major green hydrogen milestone as German agreements advance pipeline",
       "url": "https://hydrogeneurope.eu/denmark-reaches-major-green-hydrogen-milestone-as-german-agreements-advance-pipeline/",
       "source": "Hydrogen Europe",
       "category": "Policy",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Nippon Steel Advances Hydrogen Direct Reduction Technology in Pilot Testing",
+      "url": "http://www.hydrogenfuelnews.com/nippon-steel-advances-hydrogen-direct-reduction-technology-in-pilot-testing/8577020/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-05"
     },
     {
@@ -190,27 +211,6 @@
       "source": "Hydrogen Fuel News",
       "category": "Market",
       "date": "2026-11-03"
-    },
-    {
-      "title": "Bloom Energy and Solaris Energy Poised for Growth Amidst AI Power Demands",
-      "url": "http://www.hydrogenfuelnews.com/bloom-energy-and-solaris-energy-poised-for-growth-amidst-ai-power-demands/8576998/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "Innovative Hydrogen Storage Solutions from Uruguay: Pioneering a Greener Future",
-      "url": "http://www.hydrogenfuelnews.com/innovative-hydrogen-storage-solutions-from-uruguay-pioneering-a-greener-future/8576997/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "Europe must build its hydrogen market",
-      "url": "https://hydrogeneurope.eu/europe-must-build-its-hydrogen-market/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-11-02"
     }
   ]
 }
