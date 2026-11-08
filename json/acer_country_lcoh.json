@@ -1,0 +1,64 @@
+{
+  "status": "ok",
+  "source": "ACER CHEST \u2014 example LCOH by electricity-price threshold (DE, ES)",
+  "source_url": "https://aegis.acer.europa.eu/chest/dataitems/970/view",
+  "updated": "2026-11-08T16:59:42Z",
+  "unit": "EUR/kg (and EUR/MWh)",
+  "note": "Electrolyser LCOH at different electricity-price thresholds \u2014 a lower threshold means the electrolyser only runs on cheaper hours, so fewer running hours can raise the per-kg cost despite cheaper power. Not a live price.",
+  "countries": {
+    "Germany": [
+      {
+        "threshold_eur_mwh": 60.0,
+        "eur_per_kg": 7.1,
+        "eur_per_mwh": 212.3
+      },
+      {
+        "threshold_eur_mwh": 50.0,
+        "eur_per_kg": 7.0,
+        "eur_per_mwh": 209.3
+      },
+      {
+        "threshold_eur_mwh": 40.0,
+        "eur_per_kg": 7.3,
+        "eur_per_mwh": 219.2
+      },
+      {
+        "threshold_eur_mwh": 30.0,
+        "eur_per_kg": 7.7,
+        "eur_per_mwh": 231.2
+      },
+      {
+        "threshold_eur_mwh": 20.0,
+        "eur_per_kg": 8.6,
+        "eur_per_mwh": 257.4
+      }
+    ],
+    "Spain": [
+      {
+        "threshold_eur_mwh": 60.0,
+        "eur_per_kg": 6.0,
+        "eur_per_mwh": 179.0
+      },
+      {
+        "threshold_eur_mwh": 50.0,
+        "eur_per_kg": 5.7,
+        "eur_per_mwh": 170.0
+      },
+      {
+        "threshold_eur_mwh": 40.0,
+        "eur_per_kg": 5.4,
+        "eur_per_mwh": 161.0
+      },
+      {
+        "threshold_eur_mwh": 30.0,
+        "eur_per_kg": 5.3,
+        "eur_per_mwh": 157.7
+      },
+      {
+        "threshold_eur_mwh": 20.0,
+        "eur_per_kg": 5.4,
+        "eur_per_mwh": 161.9
+      }
+    ]
+  }
+}

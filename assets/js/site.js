@@ -180,6 +180,23 @@
       '<p style="font-size:12px;color:var(--muted);margin-top:8px;">Source: '+data.source+' · <a href="'+data.source_url+'" target="_blank" rel="noopener">data</a> · '+data.note+'</p>';
   }
 
+  function renderDeliveredCost(data){
+    var el = document.getElementById('delivered-cost');
+    if(!el) return;
+    if(!data || data.status !== 'ok'){
+      el.innerHTML = '<p style="color:var(--muted);padding:16px 2px;">Benchmark unavailable right now — run <code>scripts/acer_lcoh_scraper.py</code> to refresh.</p>';
+      return;
+    }
+    var prod = data.production_cost.eur_per_kg;
+    var rows = Object.keys(data.network_user_cost_by_country).map(function(country){
+      var addon = data.network_user_cost_by_country[country].eur_per_kg;
+      return '<tr><td>'+country+'</td><td class="num">€'+addon.toFixed(2)+'</td><td class="num">€'+(prod+addon).toFixed(2)+'</td></tr>';
+    }).join('');
+    el.innerHTML =
+      '<div class="tablewrap"><table><thead><tr><th>Country</th><th style="text-align:right;">Network tariff add-on (€/kg)</th><th style="text-align:right;">Delivered cost (€/kg)</th></tr></thead><tbody>'+rows+'</tbody></table></div>' +
+      '<p style="font-size:12px;color:var(--muted);margin-top:8px;">Baseline average RFNBO production cost: €'+prod.toFixed(2)+'/kg. Network tariffs only cover grid-connected delivery in these three countries — other transport methods (truck, pipeline, shipping) range €'+data.transport_cost_range.min.eur_per_kg.toFixed(2)+'–'+data.transport_cost_range.max.eur_per_kg.toFixed(2)+'/kg depending on distance and mode. Source: '+data.source+' · <a href="'+data.source_url+'" target="_blank" rel="noopener">data</a> · '+data.note+'</p>';
+  }
+
   window.HPW = {
     loadJSON: function(path){ return fetch(path).then(function(r){ return r.json(); }); },
     renderSnapshot: renderSnapshot,
@@ -187,6 +204,7 @@
     renderMarketTable: renderMarketTable,
     renderNews: renderNews,
     renderCeghIndex: renderCeghIndex,
-    renderIeaCosts: renderIeaCosts
+    renderIeaCosts: renderIeaCosts,
+    renderDeliveredCost: renderDeliveredCost
   };
 })();

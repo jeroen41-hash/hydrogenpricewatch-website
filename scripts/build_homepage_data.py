@@ -72,27 +72,38 @@ def build_chart(cegh):
     }
 
 
-def build_market(cegh):
+def build_market(cegh, country_lcoh):
+    rows = [
+        {
+            "market": "Austria",
+            "pathway": "green",
+            "source": "CEGH GreenHydrogen Index (live)",
+            "price": "€" + str(cegh["ppa100"]["eur_per_kg"]) + "/kg",
+        }
+    ]
+    for country, vals in country_lcoh["countries"].items():
+        lo = min(v["eur_per_kg"] for v in vals)
+        hi = max(v["eur_per_kg"] for v in vals)
+        rows.append({
+            "market": country,
+            "pathway": "green",
+            "source": "ACER CHEST — LCOH by electricity-price threshold",
+            "price": f"€{lo:.2f}–{hi:.2f}/kg",
+        })
     return {
         "status": "ok",
         "note": "Only markets with a verified public or semi-public source are listed. More will be added as additional feeds (HyXchange HYCLICX, EEX HYDRIX) are secured — see sources.html.",
-        "rows": [
-            {
-                "market": "Austria",
-                "pathway": "green",
-                "source": "CEGH GreenHydrogen Index (live)",
-                "price": "€" + str(cegh["ppa100"]["eur_per_kg"]) + "/kg",
-            }
-        ],
+        "rows": rows,
     }
 
 
 def main():
     cegh = load("cegh_index.json")
     iea = load("iea_hydrogen_costs.json")
+    country_lcoh = load("acer_country_lcoh.json")
     write("price_snapshot.json", build_snapshot(cegh, iea))
     write("price_history.json", build_chart(cegh))
-    write("market_prices.json", build_market(cegh))
+    write("market_prices.json", build_market(cegh, country_lcoh))
     print("ok: wrote price_snapshot.json, price_history.json, market_prices.json")
 
 

@@ -7,6 +7,18 @@
       "pathway": "green",
       "source": "CEGH GreenHydrogen Index (live)",
       "price": "\u20ac6.72/kg"
+    },
+    {
+      "market": "Germany",
+      "pathway": "green",
+      "source": "ACER CHEST \u2014 LCOH by electricity-price threshold",
+      "price": "\u20ac7.00\u20138.60/kg"
+    },
+    {
+      "market": "Spain",
+      "pathway": "green",
+      "source": "ACER CHEST \u2014 LCOH by electricity-price threshold",
+      "price": "\u20ac5.30\u20136.00/kg"
     }
   ]
 }

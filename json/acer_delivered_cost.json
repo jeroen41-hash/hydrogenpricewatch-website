@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "source": "ACER CHEST \u2014 RFNBO production cost vs. DK/DE/NL transport tariffs",
+  "source_url": "https://aegis.acer.europa.eu/chest/dataitems/973/view",
+  "updated": "2026-11-08T16:59:43Z",
+  "unit": "EUR/kg (and EUR/MWh)",
+  "note": "Average renewable (RFNBO) hydrogen production cost, plus what getting it to the end user adds on top via network tariffs in three countries. Not a live price.",
+  "production_cost": {
+    "eur_per_kg": 8.05,
+    "eur_per_mwh": 241.74
+  },
+  "network_user_cost_by_country": {
+    "Denmark": {
+      "eur_per_kg": 0.3,
+      "eur_per_mwh": 9.0
+    },
+    "Netherlands": {
+      "eur_per_kg": 0.28,
+      "eur_per_mwh": 8.45
+    },
+    "Germany": {
+      "eur_per_kg": 0.33,
+      "eur_per_mwh": 10.0
+    }
+  },
+  "transport_cost_range": {
+    "min": {
+      "eur_per_kg": 0.08,
+      "eur_per_mwh": 2.4
+    },
+    "max": {
+      "eur_per_kg": 1.8,
+      "eur_per_mwh": 54.05
+    }
+  }
+}

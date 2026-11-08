@@ -7,6 +7,7 @@ VENV=~/ship-registry/venv/bin/python3
 $VENV scripts/news_scraper.py
 $VENV scripts/price_scraper.py
 $VENV scripts/iea_cost_scraper.py
+$VENV scripts/acer_lcoh_scraper.py
 $VENV scripts/build_homepage_data.py
 
 if ! git diff --quiet; then

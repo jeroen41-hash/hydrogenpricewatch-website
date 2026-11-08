@@ -105,6 +105,16 @@
   <p id="market-footnote" style="font-size:12px;color:var(--muted);margin-top:8px;"></p>
 </section>
 
+<section id="delivered">
+  <div class="section-head">
+    <div>
+      <h2>What delivered green hydrogen costs</h2>
+      <p>Production cost is only part of the story — getting it to the end user adds network/transport costs on top.</p>
+    </div>
+  </div>
+  <div id="delivered-cost"></div>
+</section>
+
 <section id="news-preview">
   <div class="section-head">
     <div>
@@ -130,7 +140,8 @@
     HPW.loadJSON('/json/market_prices.json'),
     HPW.loadJSON('/json/news.json'),
     HPW.loadJSON('/json/cegh_index.json'),
-    HPW.loadJSON('/json/iea_hydrogen_costs.json')
+    HPW.loadJSON('/json/iea_hydrogen_costs.json'),
+    HPW.loadJSON('/json/acer_delivered_cost.json')
   ]).then(function(results){
     HPW.renderSnapshot(results[0]);
     HPW.renderChart(results[1]);
@@ -138,6 +149,7 @@
     HPW.renderNews(results[3], {targetId: 'news-grid', limit: 4});
     HPW.renderCeghIndex(results[4]);
     HPW.renderIeaCosts(results[5]);
+    HPW.renderDeliveredCost(results[6]);
   });
 </script>
 </body>
