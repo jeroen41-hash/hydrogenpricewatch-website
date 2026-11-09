@@ -1,7 +1,28 @@
 {
   "status": "ok",
-  "updated": "2026-11-08T17:02:22Z",
+  "updated": "2026-11-09T06:10:06Z",
   "items": [
+    {
+      "title": "\u201cNot dead\u201d \u2013 Hyundai considers future hydrogen car for Australia",
+      "url": "https://hydrogen-central.com/not-dead-hyundai-considers-future-hydrogen-car-for-australia/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-08"
+    },
+    {
+      "title": "JERA Invests in Koloma to Explore Natural Hydrogen as Future Clean Energy Source",
+      "url": "http://www.hydrogenfuelnews.com/jera-invests-in-koloma-to-explore-natural-hydrogen-as-future-clean-energy-source/8577037/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-08"
+    },
+    {
+      "title": "RWE and Kawasaki Commence Field Trial of 34-MW Hydrogen-Compatible Gas Turbine in Germany",
+      "url": "http://www.hydrogenfuelnews.com/rwe-and-kawasaki-commence-field-trial-of-34-mw-hydrogen-compatible-gas-turbine-i/8577036/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-08"
+    },
     {
       "title": "CINEA at European Hydrogen Week",
       "url": "https://hydrogen-central.com/cinea-at-european-hydrogen-week/",
@@ -66,11 +87,11 @@
       "date": "2026-11-08"
     },
     {
-      "title": "New guide sets out roadmap for scaling hydrogen for data centres",
-      "url": "https://hydrogen-central.com/new-guide-sets-out-roadmap-for-scaling-hydrogen-for-data-centres/",
-      "source": "Hydrogen Central",
+      "title": "Innovative TiO2\u2013AgBiS2 Photoelectrode Paves the Way for Eco-Friendly Solar Hydrogen Production",
+      "url": "http://www.hydrogenfuelnews.com/innovative-tio2-agbis2-photoelectrode-paves-the-way-for-eco-friendly-solar-hydro/8577033/",
+      "source": "Hydrogen Fuel News",
       "category": "Market",
-      "date": "2026-11-08"
+      "date": "2026-11-07"
     },
     {
       "title": "Google Confirms $17 Billion Wyoming Data Centre Investment With 702MW Bloom Fuel Cells and Carbon Capture",
@@ -143,6 +164,20 @@
       "date": "2026-11-06"
     },
     {
+      "title": "Ballard and Solaris Announce the Series Production of FCmove-SC Hydrogen Fuel Cell for Transit Buses",
+      "url": "http://www.hydrogenfuelnews.com/ballard-and-solaris-announce-the-series-production-of-fcmove-sc-hydrogen-fuel-ce/8577029/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "NTT DATA Partners with Bloom Energy for a Game-Changing Onsite Power Generation Initiative",
+      "url": "http://www.hydrogenfuelnews.com/ntt-data-partners-with-bloom-energy-for-a-game-changing-onsite-power-generation-/8577028/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-06"
+    },
+    {
       "title": "The Hydrogen Stream: H2 turbines can push LCOHS to around $0.62/kg",
       "url": "https://www.pv-magazine.com/2026/11/06/the-hydrogen-stream-h2-turbines-can-push-lcohs-to-around-0-62-kg/",
       "source": "pv magazine (hydrogen tag)",
@@ -152,6 +187,13 @@
     {
       "title": "ARENA Backs Hadean Energy's Groundbreaking Hydrogen Pilot in Victoria",
       "url": "http://www.hydrogenfuelnews.com/arena-backs-hadean-energy-s-groundbreaking-hydrogen-pilot-in-victoria/8577025/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "European Parliament Pushes for Revisions on Vehicle Emissions and Low-Carbon Steel Incentives",
+      "url": "http://www.hydrogenfuelnews.com/european-parliament-pushes-for-revisions-on-vehicle-emissions-and-low-carbon-ste/8577024/",
       "source": "Hydrogen Fuel News",
       "category": "Market",
       "date": "2026-11-06"
@@ -169,48 +211,6 @@
       "source": "Hydrogen Fuel News",
       "category": "Market",
       "date": "2026-11-05"
-    },
-    {
-      "title": "Tokyo tests solar-powered hydrogen production at high-rise office complex",
-      "url": "https://www.pv-magazine.com/2026/11/05/tokyo-tests-solar-powered-hydrogen-production-at-high-rise-office-complex/",
-      "source": "pv magazine (hydrogen tag)",
-      "category": "Technology",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Prominence Energy Limited Reports Hydrogen Indicators from Eyre Peninsula Study",
-      "url": "http://www.hydrogenfuelnews.com/prominence-energy-limited-reports-hydrogen-indicators-from-eyre-peninsula-study/8577016/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "Sonatrach Partners with World Bank Institutions on Hydrogen and Emission Reduction Initiatives",
-      "url": "http://www.hydrogenfuelnews.com/sonatrach-partners-with-world-bank-institutions-on-hydrogen-and-emission-reducti/8577015/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "Asahi Kasei and Power to Hydrogen Collaborate on Next-Gen Anion Exchange Membrane Electrolysis",
-      "url": "http://www.hydrogenfuelnews.com/asahi-kasei-and-power-to-hydrogen-collaborate-on-next-gen-anion-exchange-membran/8577014/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "Exploring Natural Hydrogen Wealth: Mantle8's Groundbreaking Initiative in Ras Al Khaimah",
-      "url": "http://www.hydrogenfuelnews.com/exploring-natural-hydrogen-wealth-mantle8-s-groundbreaking-initiative-in-ras-al-/8577013/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "New guide sets out roadmap for scaling hydrogen for data centres",
-      "url": "https://hydrogeneurope.eu/new-guide-sets-out-roadmap-for-scaling-hydrogen-for-data-centres/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-11-03"
     }
   ]
 }
