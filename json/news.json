@@ -1,7 +1,105 @@
 {
   "status": "ok",
-  "updated": "2026-11-10T06:10:07Z",
+  "updated": "2026-11-11T06:10:07Z",
   "items": [
+    {
+      "title": "Hydrogen\u2019s next big customer is the power grid, but most of it still runs on gas",
+      "url": "https://hydrogen-central.com/hydrogens-next-big-customer-is-the-power-grid-but-most-of-it-still-runs-on-gas/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Korean Researchers Unveil 110 kW Hydrogen Fuel Cell Unmanned Tractor at KIEMSTA 2026",
+      "url": "https://fuelcellsworks.com/2026/11/09/fuel-cells/korean-researchers-unveil-110-kw-hydrogen-fuel-cell-unmanned-tractor-at-kiemsta-2026",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "PowerCell Secures SEK 15 Million Order From H2SITE for Maritime Ammonia-to-Power Project in Norway",
+      "url": "https://fuelcellsworks.com/2026/11/10/electrolyzer/powercell-secures-sek-15-million-order-from-h2site-for-maritime-ammonia-to-power-project-in-norway",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Qiangyun's Hydrogen Refrigerated Truck Fleet Clears 6.35 Million Kilometres in Under a Year",
+      "url": "https://fuelcellsworks.com/2026/11/09/fuel-cells/qiangyun-s-hydrogen-refrigerated-truck-fleet-clears-6-35-million-kilometres-in-under-a-year",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Hydrogen-Powered Liebherr Wheel Loader Starts Operational Trial at Bremerhaven Port",
+      "url": "https://hydrogeneurope.eu/hydrogen-powered-liebherr-wheel-loader-starts-operational-trial-at-bremerhaven-port/",
+      "source": "Hydrogen Europe",
+      "category": "Policy",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Mitsui Mining & Smelting and Kyoto University Develop MOF Glass Membrane for Next-Generation Hydrogen Production",
+      "url": "https://fuelcellsworks.com/2026/11/09/electrolyzer/mitsui-mining-and-smelting-and-kyoto-university-develop-mof-glass-membrane-for-next-generation-hydrogen-production",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Hanwha Aerospace Obtains Korea's First Type Approval for Marine Hydrogen Fuel Cells",
+      "url": "https://fuelcellsworks.com/2026/11/10/fuel-cells/hanwha-aerospace-obtains-korea-s-first-type-approval-for-marine-hydrogen-fuel-cells",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Tata Daewoo Brings 408 Hp Hydrogen Engine Tractor to World Hydrogen Expo 2026",
+      "url": "https://fuelcellsworks.com/2026/11/03/h2/tata-daewoo-brings-408-hp-hydrogen-engine-tractor-to-world-hydrogen-expo-2026",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "HYTRA and Path2 Hydrogen / GenH2 Sign MoU to Advance Liquid Hydrogen Infrastructure and Maritime Supply Chains",
+      "url": "https://fuelcellsworks.com/2026/11/10/electrolyzer/hytra-and-path2-hydrogen-genh2-sign-mou-to-advance-liquid-hydrogen-infrastructure-and-maritime-supply-chains",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "H2GLASS Wins First Place at the IEA TCP Awards",
+      "url": "https://fuelcellsworks.com/2026/11/02/h2/h2glass-wins-first-place-at-the-iea-tcp-awards",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "First Green Hydrogen Produced at 30MW German Electrolyser Supplying TotalEnergies Refinery",
+      "url": "https://fuelcellsworks.com/2026/11/10/electrolyzer/first-green-hydrogen-produced-at-30mw-german-electrolyser-supplying-totalenergies-refinery",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Global Fuel-Cell Vehicle Sales Fall 19.4% in First Nine Months of 2026",
+      "url": "https://fuelcellsworks.com/2026/11/10/fuel-cells/global-fuel-cell-vehicle-sales-fall-19-4-percent-in-first-nine-months-of-2026",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Japan to assess renewable, storage technologies beyond PV and wind",
+      "url": "https://www.pv-magazine.com/2026/11/10/japan-to-assess-renewable-storage-technologies-beyond-pv-and-wind/",
+      "source": "pv magazine (hydrogen tag)",
+      "category": "Technology",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "HDF Energy Selects Topsoe for 250 MW Power Plant in Texas \u2013 hydrogen fuel cells for data centers",
+      "url": "https://hydrogen-central.com/hdf-energy-selects-topsoe-for-250-mw-power-plant-in-texas-hydrogen-fuel-cells-for-data-centers/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-10"
+    },
     {
       "title": "Nikkiso cuts hydrogen boil-off at fueling stations thanks to next-generation pump",
       "url": "https://hydrogen-central.com/nikkiso-cuts-hydrogen-boil-off-at-fueling-stations-thanks-to-next-generation-pump/",
@@ -59,20 +157,6 @@
       "date": "2026-11-10"
     },
     {
-      "title": "Singapore to start receiving and using green ammonia, hydrogen in 2026",
-      "url": "https://hydrogen-central.com/singapore-to-start-receiving-and-using-green-ammonia-hydrogen-in-2026/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-10"
-    },
-    {
-      "title": "Hyundai Motor Group debuts hydrogen truck system and unmanned charging robot in Korea",
-      "url": "https://hydrogen-central.com/hyundai-motor-group-debuts-hydrogen-truck-system-and-unmanned-charging-robot-in-korea/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-10"
-    },
-    {
       "title": "Sahamco's Ambitious Green Hydrogen Project in Dakhla",
       "url": "http://www.hydrogenfuelnews.com/revolutionizing-renewable-energy-sahamco-s-ambitious-green-hydrogen-project-in-d/8577041/",
       "source": "Hydrogen Fuel News",
@@ -80,73 +164,10 @@
       "date": "2026-11-09"
     },
     {
-      "title": "Oxygenwerk Friedrichshafen Awards Contracts for 5 MW Hydrogen Plant in the Allg\u00e4u",
-      "url": "https://fuelcellsworks.com/2026/11/09/h2/oxygenwerk-friedrichshafen-awards-contracts-for-5-mw-hydrogen-plant-in-the-allgau",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Nov. 02-06, 2026",
-      "url": "https://fuelcellsworks.com/2026/11/08/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-nov-02-06-2026",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "W\u00e4rtsil\u00e4 Backs Hydrogen and Ammonia Engine Research at Aalto University With \u20ac200,000 Donation",
-      "url": "https://fuelcellsworks.com/2026/11/09/green-investment/wartsila-backs-hydrogen-and-ammonia-engine-research-at-aalto-university-with-200-000-donation",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "German Hydrogen Storage Project Clears Leak Test as EWE Prepares 1,440-Tonne Cavern for 2028",
-      "url": "https://fuelcellsworks.com/2026/11/08/h2/german-hydrogen-storage-project-clears-key-test-as-ewe-prepares-1-440-tonne-cavern-for-2028",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "Researchers, Industry Teaming up to Help Hydrogen Fuel Cells Take Flight",
-      "url": "https://fuelcellsworks.com/2026/11/01/fuel-cells/researchers-industry-teaming-up-to-help-hydrogen-fuel-cells-take-flight",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "Upper Austria Reports \u20ac600M Hydrogen Project Pipeline as Minister Departs",
-      "url": "https://fuelcellsworks.com/2026/11/09/h2/upper-austria-reports-600m-hydrogen-project-pipeline-as-minister-departs",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "H-Power Narrows Loss as Ammonia-to-Hydrogen Sales and Fuel-Cell Generator Orders Accelerate",
-      "url": "https://fuelcellsworks.com/2026/11/09/clean-energy/h-power-narrows-loss-as-ammonia-to-hydrogen-sales-and-fuel-cell-generator-orders-accelerate",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "China Connects First 100.48MW of Solar at Jiangsu Green Hydrogen Demonstration Project",
-      "url": "https://fuelcellsworks.com/2026/11/03/green-hydrogen/china-connects-first-100-48mw-of-solar-at-jiangsu-green-hydrogen-demonstration-project",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "StormFisher Appoints New CEO as C$1bn Qu\u00e9bec E-Methanol Project Pushes Toward FID",
-      "url": "https://fuelcellsworks.com/2026/11/09/h2/stormfisher-appoints-new-ceo-as-c-1bn-quebec-e-methanol-project-pushes-toward-fid",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "Germany: Hydrogen\u2019s Most Vocal Political Champion in Germany Is Gone",
-      "url": "https://fuelcellsworks.com/2026/11/08/h2/hydrogen-s-most-vocal-political-champion-in-germany-is-gone",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
+      "title": "40km hydrogen pipeline between Luxembourg and France given greenlight",
+      "url": "https://hydrogeneurope.eu/40km-hydrogen-pipeline-between-luxembourg-and-france-given-greenlight/",
+      "source": "Hydrogen Europe",
+      "category": "Policy",
       "date": "2026-11-09"
     },
     {
@@ -187,27 +208,6 @@
     {
       "title": "NTT DATA Partners with Bloom Energy for a Game-Changing Onsite Power Generation Initiative",
       "url": "http://www.hydrogenfuelnews.com/ntt-data-partners-with-bloom-energy-for-a-game-changing-onsite-power-generation-/8577028/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-06"
-    },
-    {
-      "title": "The Hydrogen Stream: H2 turbines can push LCOHS to around $0.62/kg",
-      "url": "https://www.pv-magazine.com/2026/11/06/the-hydrogen-stream-h2-turbines-can-push-lcohs-to-around-0-62-kg/",
-      "source": "pv magazine (hydrogen tag)",
-      "category": "Technology",
-      "date": "2026-11-06"
-    },
-    {
-      "title": "ARENA Backs Hadean Energy's Groundbreaking Hydrogen Pilot in Victoria",
-      "url": "http://www.hydrogenfuelnews.com/arena-backs-hadean-energy-s-groundbreaking-hydrogen-pilot-in-victoria/8577025/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-06"
-    },
-    {
-      "title": "European Parliament Pushes for Revisions on Vehicle Emissions and Low-Carbon Steel Incentives",
-      "url": "http://www.hydrogenfuelnews.com/european-parliament-pushes-for-revisions-on-vehicle-emissions-and-low-carbon-ste/8577024/",
       "source": "Hydrogen Fuel News",
       "category": "Market",
       "date": "2026-11-06"
