@@ -2,7 +2,7 @@
   "status": "ok",
   "source": "ACER CHEST \u2014 example LCOH by electricity-price threshold (DE, ES)",
   "source_url": "https://aegis.acer.europa.eu/chest/dataitems/970/view",
-  "updated": "2026-11-12T06:10:14Z",
+  "updated": "2026-11-13T06:10:12Z",
   "unit": "EUR/kg (and EUR/MWh)",
   "note": "Electrolyser LCOH at different electricity-price thresholds \u2014 a lower threshold means the electrolyser only runs on cheaper hours, so fewer running hours can raise the per-kg cost despite cheaper power. Not a live price.",
   "countries": {

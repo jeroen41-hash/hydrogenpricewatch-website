@@ -2,45 +2,45 @@
   "status": "ok",
   "source": "CEGH GreenHydrogen Index \u2014 forward curve",
   "source_url": "https://www.cegh.at/en/greengas/cegh-greenhydrogen-index/",
-  "updated": "2026-11-12T06:10:12Z",
+  "updated": "2026-11-13T06:10:10Z",
   "unit": "\u20ac/kg",
   "note": "Real forward curve for Austrian green hydrogen (RED II non-compliant spot/forward series). Not a prediction for other markets.",
   "points": [
     {
-      "label": "Spot (10-Nov-2026)",
-      "value": 24.0
+      "label": "Spot (11-Nov-2026)",
+      "value": 22.1
     },
     {
       "label": "December 2026",
-      "value": 12.9
+      "value": 13.47
     },
     {
       "label": "January 2027",
-      "value": 13.07
+      "value": 13.5
     },
     {
       "label": "Q1 2027",
-      "value": 11.89
+      "value": 12.15
     },
     {
       "label": "Summer 2027",
-      "value": 7.51
+      "value": 7.33
     },
     {
       "label": "Winter 2027",
-      "value": 9.4
+      "value": 9.14
     },
     {
       "label": "Calendar 2027",
-      "value": 9.09
+      "value": 8.96
     },
     {
       "label": "Calendar 2028",
-      "value": 7.05
+      "value": 7.0
     },
     {
       "label": "Calendar 2029",
-      "value": 6.18
+      "value": 6.19
     }
   ]
 }
