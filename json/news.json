@@ -1,132 +1,153 @@
 {
   "status": "ok",
-  "updated": "2026-11-13T06:10:08Z",
+  "updated": "2026-11-14T06:10:09Z",
   "items": [
     {
-      "title": "Hyundai\u2019s HTWO Guangzhou Puts Next-Generation Hydrogen Fuel Cell System Into Local Mass Production",
-      "url": "https://fuelcellsworks.com/2026/11/11/electrolyzer/hyundai-s-htwo-guangzhou-puts-next-generation-hydrogen-fuel-cell-system-into-local-mass-production",
+      "title": "Korea Pallet Pool Launches Hydrogen Fuel Cell Truck Pilot Project with Lotte Chilsung Beverage",
+      "url": "https://hydrogen-central.com/korea-pallet-pool-launches-hydrogen-fuel-cell-truck-pilot-project-with-lotte-chilsung-beverage/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Amogy to Deploy Ammonia Cracking Module at New Low-Carbon Testbed with A*STAR, Advancing Ammonia-to-Hydrogen Technology in Singapore",
+      "url": "https://hydrogen-central.com/amogy-to-deploy-ammonia-cracking-module-at-new-low-carbon-testbed-with-astar-advancing-ammonia-to-hydrogen-technology-in-singapore/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "INPEX Commences Ammonia Production and Supply at Kashiwazaki Hydrogen Park as Part of Integrated Blue Hydrogen and Ammonia Production and Utilization Demonstration Project in Niigata, Japan",
+      "url": "https://hydrogen-central.com/inpex-commences-ammonia-production-and-supply-at-kashiwazaki-hydrogen-park-as-part-of-integrated-blue-hydrogen-and-ammonia-production-and-utilization-demonstration-project-in-niigata-japan/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "QIMC Further Derisks Nova Scotia Natural Hydrogen Multi-Gas System with New Thermogenic Gas and Helium Results",
+      "url": "https://hydrogen-central.com/qimc-further-derisks-nova-scotia-natural-hydrogen-multi-gas-system-with-new-thermogenic-gas-and-helium-results/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Two years after launch, Germany\u2019s hydrogen core network grows slowly",
+      "url": "https://hydrogen-central.com/two-years-after-launch-germanys-hydrogen-core-network-grows-slowly/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Kia to Enter Hydrogen Vehicle Market With Fuel Cell Carnival in 2029",
+      "url": "https://hydrogen-central.com/kia-to-enter-hydrogen-vehicle-market-with-fuel-cell-carnival-in-2029/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Hydrogen Strategy \u2013 European Commission launches consultation",
+      "url": "https://hydrogen-central.com/hydrogen-strategy-european-commission-launches-consultation/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "IMC Logistics \u2013 Zero-Emission Hydrogen Truck to Lead Formula 1 Drivers\u2019 Parade at Circuit of The Americas",
+      "url": "https://hydrogen-central.com/imc-logistics-zero-emission-hydrogen-truck-to-lead-formula-1-drivers-parade-at-circuit-of-the-americas/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Why AI data centres are powering a boom in fuel cell demand",
+      "url": "https://hydrogen-central.com/why-ai-data-centres-are-powering-a-boom-in-fuel-cell-demand/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Revisiting Germany\u2019s hydrogen ambitions: Between sluggish progress and new momentum",
+      "url": "https://hydrogen-central.com/revisiting-germanys-hydrogen-ambitions-between-sluggish-progress-and-new-momentum/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "German Beverage Distributor Vo\u00dfkamp Tests Hyundai XCIENT Hydrogen Truck Alongside BEV and Combustion Fleet",
+      "url": "https://fuelcellsworks.com/2026/11/12/fuel-cells/german-beverage-distributor-vo-kamp-tests-hyundai-xcient-hydrogen-truck-alongside-bev-and-combustion-fleet",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
-      "title": "Meta Buys Green Steel Certificates From Stegra\u2019s 740MW Hydrogen-Based Plant in Sweden",
-      "url": "https://fuelcellsworks.com/2026/11/12/h2/meta-buys-green-steel-certificates-from-stegra-s-740mw-hydrogen-based-plant-in-sweden",
+      "title": "The Hydrogen Stream: Uniper and VNG Produce first green hydrogen at 30 MW facility in Germany",
+      "url": "https://www.pv-magazine.com/2026/11/13/the-hydrogen-stream-uniper-and-vng-produce-first-green-hydrogen-at-30-mw-facility-in-germany/",
+      "source": "pv magazine (hydrogen tag)",
+      "category": "Technology",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Brazil\u2019s Energy Regulator Authorises First Green Hydrogen Project to Access National Grid",
+      "url": "https://fuelcellsworks.com/2026/11/13/h2/brazil-s-energy-regulator-authorises-first-green-hydrogen-project-to-access-national-grid",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
-      "title": "50 Hydrogen Trucks Enter Service as China Expands Chengdu-Chongqing Freight Corridor",
-      "url": "https://fuelcellsworks.com/2026/11/11/fuel-cells/50-hydrogen-trucks-enter-service-as-china-expands-chengdu-chongqing-freight-corridor",
+      "title": "DHL Becomes First Express Cargo Carrier to Use Sustainable Aviation Fuel (SAF) at Paris Charles De Gaulle Airport",
+      "url": "https://fuelcellsworks.com/2026/11/12/clean-energy/dhl-becomes-first-express-cargo-carrier-to-use-sustainable-aviation-fuel-saf-at-paris-charles-de-gaulle-airport",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
-      "title": "Fuel-Cell Developers Target Floating Data Centres with New Power System Partnership",
-      "url": "https://fuelcellsworks.com/2026/11/09/electrolyzer/samsung-heavy-industries-and-morimura-sofc-technology-team-up-on-fuel-cells-for-floating-data-centers",
+      "title": "Luxembourg Puts Hydrogen Cars on Equal Footing With Battery EVs in Revamped Subsidy Scheme",
+      "url": "https://fuelcellsworks.com/2026/11/12/h2/luxembourg-puts-hydrogen-cars-on-equal-footing-with-battery-evs-in-revamped-subsidy-scheme",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
-      "title": "Estonia begins route planning for European hydrogen corridor",
-      "url": "https://hydrogen-central.com/estonia-begins-route-planning-for-european-hydrogen-corridor/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Max Power Expands Scale of Saskatchewan Natural Hydrogen System With Lawson 5, Commences Follow-Up Well",
-      "url": "https://hydrogen-central.com/max-power-expands-scale-of-saskatchewan-natural-hydrogen-system-with-lawson-5-commences-follow-up-well/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "UK \u2013 Testing and validating underground hydrogen storage components",
-      "url": "https://hydrogen-central.com/uk-testing-and-validating-underground-hydrogen-storage-components/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Amogy and HD Construction Equipment Complete Ammonia-to-Power Test Ahead of 2027 Pohang Launch",
-      "url": "https://fuelcellsworks.com/2026/11/12/h2/amogy-and-hd-construction-equipment-complete-ammonia-to-power-test-ahead-of-2027-pohang-launch",
+      "title": "Catator Appoints Martin Svensson as CFO and Deputy CEO",
+      "url": "https://fuelcellsworks.com/2026/11/11/h2/catator-appoints-martin-svensson-as-cfo-and-deputy-ceo",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
-      "title": "EBARA Opens World\u2019s First Commercial-Scale Liquid Hydrogen Pump Test Center and Manufacturing Hub",
-      "url": "https://hydrogen-central.com/ebara-opens-worlds-first-commercial-scale-liquid-hydrogen-pump-test-center-and-manufacturing-hub/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "H\u00f6egh taps BYD batteries for ammonia powered car carrier",
-      "url": "https://hydrogen-central.com/hoegh-taps-byd-batteries-for-ammonia-powered-car-carrier/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Hydrogen-powered taxis are now operating in Gothenburg",
-      "url": "https://hydrogen-central.com/hydrogen-powered-taxis-are-now-operating-in-gothenburg/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "HyTerra Refocuses Exploration Efforts, Withdraws from Geologic Hydrogen Nebraska Joint Development Agreement",
-      "url": "https://hydrogen-central.com/hyterra-refocuses-exploration-efforts-withdraws-from-geologic-hydrogen-nebraska-joint-development-agreement/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "No driver, no emissions: 110kW hydrogen-powered autonomous tractor unveiled",
-      "url": "https://hydrogen-central.com/no-driver-no-emissions-110kw-hydrogen-powered-autonomous-tractor-unveiled/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "PowerCell secures SEK 15 million order from H2SITE for maritime ammonia-to-power project in Norway",
-      "url": "https://hydrogen-central.com/powercell-secures-sek-15-million-order-from-h2site-for-maritime-ammonia-to-power-project-in-norway/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "GEN2 ENERGY SIGNS \u20ac62 MILLION EU HYDROGEN DEAL",
-      "url": "https://hydrogen-central.com/gen2-energy-signs-e62-million-eu-hydrogen-deal/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "HyTerra Expands Natural Hydrogen Exploration Into UAE With Exclusive Ras Al Khaimah MoU",
-      "url": "https://fuelcellsworks.com/2026/11/12/green-hydrogen/hyterra-expands-natural-hydrogen-exploration-into-uae-with-exclusive-ras-al-khaimah-mou",
+      "title": "Mercedes-Benz and HyIron Sign Deal to Scale Up Green Hydrogen-Based Iron Production After Successful Namibia Pilot",
+      "url": "https://fuelcellsworks.com/2026/11/13/h2/mercedes-benz-and-hyiron-sign-deal-to-scale-up-green-hydrogen-based-iron-production-after-successful-namibia-pilot",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
-      "title": "Japanese Government Funds Malaysian Waste-to-Hydrogen Feasibility Study",
-      "url": "https://fuelcellsworks.com/2026/11/05/h2/japanese-government-funds-malaysian-waste-to-hydrogen-feasibility-study",
+      "title": "Bertrand Piccard\u2019s Hydrogen Round-the-World Flight Picks Up Two Major Clean Energy Backers at COP31",
+      "url": "https://fuelcellsworks.com/2026/11/12/h2/bertrand-piccard-s-hydrogen-round-the-world-flight-picks-up-two-major-clean-energy-backers-at-cop31",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
-      "title": "Pragma Industries' Fuel Cell Work Continues in Bayonne as Unconventional Energy",
-      "url": "https://fuelcellsworks.com/2026/11/12/fuel-cells/pragma-industries-fuel-cell-work-continues-in-bayonne-as-unconventional-energy",
+      "title": "One of Europe\u2019s Largest E-SAF Projects Enters Engineering Phase in Sweden",
+      "url": "https://fuelcellsworks.com/2026/11/13/h2/one-of-europe-s-largest-e-saf-projects-enters-engineering-phase-in-sweden",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
+    },
+    {
+      "title": "AIST Claims World-Record Hydrogen Output From New Photocatalyst-Electrolysis Hybrid System",
+      "url": "https://fuelcellsworks.com/2026/11/10/h2/aist-claims-world-record-hydrogen-output-from-new-photocatalyst-electrolysis-hybrid-system",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Hyd\u2019Occ (Qair and Arec Occitanie) Inaugurates the Largest Renewable Hydrogen Production Unit in France",
+      "url": "https://fuelcellsworks.com/2026/11/13/clean-energy/hyd-occ-qair-and-arec-occitanie-inaugurates-the-largest-renewable-hydrogen-production-unit-in-france",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-13"
     },
     {
       "title": "Repsol Approves \u20ac400M Investment in 150MW Green Hydrogen Plant at Tarragona Refinery",
@@ -136,17 +157,10 @@
       "date": "2026-11-12"
     },
     {
-      "title": "Lightbridge Shows H-Bridge All-in-One On-Site Hydrogen Refuelling System at WHE 2026",
-      "url": "https://fuelcellsworks.com/2026/11/11/electrolyzer/lightbridge-shows-h-bridge-all-in-one-on-site-hydrogen-refuelling-system-at-whe-2026",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Asahi Kasei, Circularise and Furuya Metal Launch Precious-Metal Traceability Pilot for Electrolysis Electrodes",
-      "url": "https://fuelcellsworks.com/2026/11/12/electrolyzer/asahi-kasei-circularise-and-furuya-metal-launch-precious-metal-traceability-pilot-for-electrolysis-electrodes",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
+      "title": "Energiepark Bad Lauchst\u00e4dt is now producing green hydrogen",
+      "url": "http://www.hydrogenfuelnews.com/energiepark-bad-lauchst-dt-a-new-era-in-green-hydrogen-production/8577051/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-12"
     },
     {
@@ -194,20 +208,6 @@
     {
       "title": "Sahamco's Ambitious Green Hydrogen Project in Dakhla",
       "url": "http://www.hydrogenfuelnews.com/revolutionizing-renewable-energy-sahamco-s-ambitious-green-hydrogen-project-in-d/8577041/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "40km hydrogen pipeline between Luxembourg and France given greenlight",
-      "url": "https://hydrogeneurope.eu/40km-hydrogen-pipeline-between-luxembourg-and-france-given-greenlight/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "HyD\u00e9O Day 2026: Addressing Hydrogen\u2019s Role in Energy Sovereignty",
-      "url": "http://www.hydrogenfuelnews.com/hyd-o-day-2026-addressing-hydrogen-s-role-in-energy-sovereignty/8577039/",
       "source": "Hydrogen Fuel News",
       "category": "Market",
       "date": "2026-11-09"
