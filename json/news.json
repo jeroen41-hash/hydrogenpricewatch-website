@@ -1,7 +1,175 @@
 {
   "status": "ok",
-  "updated": "2026-11-20T06:10:07Z",
+  "updated": "2026-11-21T06:10:07Z",
   "items": [
+    {
+      "title": "Plug Power \u2013 GenEco\u2122 Electrolyzer Now Operational at Avina\u2019s California Plant, Adding Commercial Hydrogen Capacity in North America",
+      "url": "https://hydrogen-central.com/plug-power-geneco-electrolyzer-now-operational-at-avinas-california-plant-adding-commercial-hydrogen-capacity-in-north-america/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "PowerCell receives SEK 440 million order for utility-scale green hydrogen power generation installation in the US",
+      "url": "https://hydrogen-central.com/powercell-receives-sek-440-million-order-for-utility-scale-green-hydrogen-power-generation-installation-in-the-us/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "HY2GEN SIGNS \u20ac139,8 MILLION EUROPEAN HYDROGEN BANK GRANT AGREEMENT FOR ALBATROS",
+      "url": "https://hydrogen-central.com/hy2gen-signs-e1398-million-european-hydrogen-bank-grant-agreement-for-albatros/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "China\u2019s first hydrogen pipeline exceeding 100 km begins operation, cutting transport costs by 77 pct",
+      "url": "https://hydrogen-central.com/chinas-first-hydrogen-pipeline-exceeding-100-km-begins-operation-cutting-transport-costs-by-77-pct/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "Plug Symposium Makes the Case for Hydrogen as a Path to Energy Security and Independence",
+      "url": "https://hydrogen-central.com/plug-symposium-makes-the-case-for-hydrogen-as-a-path-to-energy-security-and-independence/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "Hydrosonic and MAXIMATOR Hydrogen Join the Clean Energy Partnership",
+      "url": "https://hydrogen-central.com/hydrosonic-and-maximator-hydrogen-join-the-clean-energy-partnership/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "Siemens Energy stock selected for 200 MW Swedish e-SAF project",
+      "url": "https://hydrogen-central.com/siemens-energy-stock-selected-for-200-mw-swedish-e-saf-project/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "Hydrogen Networks as a Location Advantage: New Study Examines Their Economic Importance for Eastern Germany",
+      "url": "https://hydrogen-central.com/hydrogen-networks-as-a-location-advantage-new-study-examines-their-economic-importance-for-eastern-germany/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "SK Innovation Unveils Lithium-Engineered Water Electrolysis Catalyst to Advance e-SAF Production",
+      "url": "https://hydrogen-central.com/sk-innovation-unveils-lithium-engineered-water-electrolysis-catalyst-to-advance-e-saf-production/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "Protium \u2013 70MW Teesside hydrogen hub clears due diligence in Government funding round",
+      "url": "https://hydrogen-central.com/protium-70mw-teesside-hydrogen-hub-clears-due-diligence-in-government-funding-round/",
+      "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "PowerCell Receives SEK 440 Million Order for Utility-Scale Green Hydrogen Power Generation Installation in the US",
+      "url": "https://fuelcellsworks.com/2026/11/20/electrolyzer/powercell-receives-sek-440-million-order-for-utility-scale-green-hydrogen-power-generation-installation-in-the-us",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Hydrogen Must Be Competitive to Scale, Says Aragon Economy Minister",
+      "url": "https://fuelcellsworks.com/2026/11/20/h2/hydrogen-must-be-competitive-to-scale-says-aragon-economy-minister",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Swedish e-SAF project selects Siemens Energy for 200MW electrolyser supply",
+      "url": "https://hydrogeneurope.eu/swedish-e-saf-project-selects-siemens-energy-for-200mw-electrolyser-supply/",
+      "source": "Hydrogen Europe",
+      "category": "Policy",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "TEAL Mobility Starts Construction of Its Hydrogen Refueling Station in Antwerp",
+      "url": "https://fuelcellsworks.com/2026/11/19/electrolyzer/teal-mobility-starts-construction-of-its-hydrogen-refueling-station-in-antwerp",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Italy's Road Haulage Industry Plans Hydrogen Truck Pilot to Test Fuel Costs and Refuelling Infrastructure",
+      "url": "https://fuelcellsworks.com/2026/11/18/fuel-cells/italy-s-road-haulage-industry-plans-hydrogen-truck-pilot-to-test-fuel-costs-and-refuelling-infrastructure",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Hyundai Hydrogen Mobility Delivers Two Additional Next-Generation XCIENT Fuel Cell Trucks to Migros Eastern Switzerland",
+      "url": "https://fuelcellsworks.com/2026/11/18/fuel-cells/hyundai-hydrogen-mobility-delivers-two-additional-next-generation-xcient-fuel-cell-trucks-to-migros-eastern-switzerland",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "thyssenkrupp nucera breaks ground on new electrolyser cell assembly site in Portugal",
+      "url": "https://hydrogeneurope.eu/thyssenkrupp-nucera-breaks-ground-on-new-electrolyser-cell-assembly-site-in-portugal/",
+      "source": "Hydrogen Europe",
+      "category": "Policy",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Genevos Lands \u20ac2.2 Million EU Grant to Build 1 MW Hydrogen Fuel Cell for Large Ships",
+      "url": "https://fuelcellsworks.com/2026/11/15/fuel-cells/genevos-lands-2-2-million-eu-grant-to-build-1-mw-hydrogen-fuel-cell-for-large-ships",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Kelluu Adds Passive Radar to Autonomous Hydrogen Airship for Persistent Aerial Monitoring",
+      "url": "https://fuelcellsworks.com/2026/11/16/h2/kelluu-adds-passive-radar-to-autonomous-hydrogen-airship-for-persistent-aerial-monitoring",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "H2APEX Subsidiary HydroExceed: Certification Paves the Way Into the Hydrogen Trailer Market",
+      "url": "https://fuelcellsworks.com/2026/11/17/h2/h2apex-subsidiary-hydroexceed-certification-paves-the-way-into-the-hydrogen-trailer-market",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Survey: German Truckmakers Push Hydrogen Drivetrain Series Production to 2029 or Later",
+      "url": "https://fuelcellsworks.com/2026/11/20/fuel-cells/survey-german-truckmakers-push-hydrogen-drivetrain-series-production-to-2029-or-later",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Solaris Delivers 13 Hydrogen Buses to B\u00e9ziers M\u00e9diterran\u00e9e",
+      "url": "https://fuelcellsworks.com/2026/11/20/fuel-cells/solaris-delivers-13-hydrogen-buses-to-beziers-mediterranee",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "World\u2019s Largest Green Hydrogen-Based E-Methane Plant Reaches FID in Finland",
+      "url": "https://hydrogeneurope.eu/worlds-largest-green-hydrogen-based-e-methane-plant-reaches-fid-in-finland/",
+      "source": "Hydrogen Europe",
+      "category": "Policy",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "The Hydrogen Stream: China starts operating 195 km hydrogen pipeline",
+      "url": "https://www.pv-magazine.com/2026/11/20/the-hydrogen-stream-china-starts-operating-195-km-hydrogen-pipeline/",
+      "source": "pv magazine (hydrogen tag)",
+      "category": "Technology",
+      "date": "2026-11-20"
+    },
     {
       "title": "EU's Hydrogen Production Capacity Falls Short of 2030 Goals, Warns ACER",
       "url": "http://www.hydrogenfuelnews.com/eu-s-hydrogen-production-capacity-falls-short-of-2030-goals-warns-acer/8577112/",
@@ -24,76 +192,6 @@
       "date": "2026-11-20"
     },
     {
-      "title": "China Completes Main Installation of 3,000-Cubic-Metre Hydrogen Storage System as Hubei Plant Reaches 90% Construction",
-      "url": "https://fuelcellsworks.com/2026/11/16/h2/china-completes-main-installation-of-3-000-cubic-metre-hydrogen-storage-system-as-hubei-plant-reaches-90-percent-construction",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "TESMauricie H2 Plant Project: The Minister Mandates the BAPE to Hold a Public Hearing as Early as December",
-      "url": "https://fuelcellsworks.com/2026/11/11/h2/tesmauricie-h2-plant-project-the-minister-mandates-the-bape-to-hold-a-public-hearing-as-early-as-december",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Next Energy Takes Grand Prize at WHE 2026\u2019S H2 Innovation Award for Hydrogen Refuelling Communication System",
-      "url": "https://fuelcellsworks.com/2026/11/09/h2/next-energy-takes-grand-prize-at-whe-2026-s-h2-innovation-award-for-hydrogen-refuelling-communication-system",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "U of A and CPKC Partner to Advance Hydrogen Locomotive Research",
-      "url": "https://fuelcellsworks.com/2026/11/16/fuel-cells/u-of-a-and-cpkc-partner-to-advance-hydrogen-locomotive-research",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Hellenic Hydrogen Files for 25 MW Electrolyser Licence in Amyntaio as Motor Oil-PPC Consortium Advances \u20ac70 Million Project",
-      "url": "https://fuelcellsworks.com/2026/11/18/h2/hellenic-hydrogen-files-for-25-mw-electrolyser-licence-in-amyntaio-as-motor-oil-ppc-consortium-advances-70-million-project",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Sacramento Regional Transit Wins $57.7 Million for 21 Hydrogen Fuel Cell Buses and Dedicated Fuelling Infrastructure",
-      "url": "https://fuelcellsworks.com/2026/11/18/fuel-cells/sacramento-regional-transit-wins-57-7-million-for-21-hydrogen-fuel-cell-buses-and-dedicated-fuelling-infrastructure",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "World\u2019s First Semi-Submersible Wind-Power Hydrogen Platform Departs for Hainan Deployment",
-      "url": "https://fuelcellsworks.com/2026/11/16/electrolyzer/world-s-first-semi-submersible-wind-power-hydrogen-platform-departs-for-hainan-deployment",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Jordan Seeks Investors for $4.5Bn Green Hydrogen and Ammonia Hub in Aqaba",
-      "url": "https://fuelcellsworks.com/2026/11/19/h2/jordan-seeks-investors-for-4-5bn-green-hydrogen-and-ammonia-hub-in-aqaba",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "OTH Regensburg Participates in Hydrogen Study Program in Sri Lanka",
-      "url": "https://fuelcellsworks.com/2026/11/19/h2/oth-regensburg-participates-in-hydrogen-study-program-in-sri-lanka",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "German City Plans \u2018Smart\u2019 Sports Stadium With On-Site Hydrogen Production and Storage",
-      "url": "https://fuelcellsworks.com/2026/11/19/h2/german-city-plans-smart-sports-stadium-with-on-site-hydrogen-production-and-storage",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-19"
-    },
-    {
       "title": "Tata Steel and Utility Global Join Forces for Hydrogen Production at Kalinganagar",
       "url": "http://www.hydrogenfuelnews.com/tata-steel-and-utility-global-join-forces-for-hydrogen-production-at-kalinganaga/8577100/",
       "source": "Hydrogen Fuel News",
@@ -113,104 +211,6 @@
       "source": "Hydrogen Europe",
       "category": "Policy",
       "date": "2026-11-19"
-    },
-    {
-      "title": "JERA Invests in Koloma to Explore Natural Hydrogen as a Future Low-Carbon Energy Source",
-      "url": "https://hydrogen-central.com/jera-invests-in-koloma-to-explore-natural-hydrogen-as-a-future-low-carbon-energy-source/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Molten Industries Commissions World\u2019s First Plant to Produce Battery-Grade Graphite \u2013 and hydrogen \u2013 from Natural Gas",
-      "url": "https://hydrogen-central.com/molten-industries-commissions-worlds-first-plant-to-produce-battery-grade-graphite-and-hydrogen-from-natural-gas/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Airport Energie Management GmbH Chooses EBZ Electrolysis System",
-      "url": "https://hydrogen-central.com/airport-energie-management-gmbh-chooses-ebz-electrolysis-system/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Hydros Power \u2013 Hydrogen cylinder filling with a gas booster pump: pressure, flow rate and system design",
-      "url": "https://hydrogen-central.com/hydros-power-hydrogen-cylinder-filling-with-a-gas-booster-pump-pressure-flow-rate-and-system-design/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Gascade \u2013 Approval Process for the HYROW Hydrogen Pipeline Begins",
-      "url": "https://hydrogen-central.com/gascade-approval-process-for-the-hyrow-hydrogen-pipeline-begins/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Electricity grids: MEPs reach deal with Council on faster project permitting \u2013 hydrogen storage excluded",
-      "url": "https://hydrogen-central.com/electricity-grids-meps-reach-deal-with-council-on-faster-project-permitting-hydrogen-storage-excluded/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "PyroGenesis Selected for Waste-to-Hydrogen Project for India\u2019s Largest Power Utility, NTPC",
-      "url": "https://hydrogen-central.com/pyrogenesis-selected-for-waste-to-hydrogen-project-for-indias-largest-power-utility-ntpc/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Water for clean hydrogen: Resource requirements, constraints, and implications",
-      "url": "https://hydrogen-central.com/water-for-clean-hydrogen-resource-requirements-constraints-and-implications/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Utility Global and Tata Steel Plan to Deploy Utility\u2019s First Industrial H2Gen\u00ae Project in India",
-      "url": "https://hydrogen-central.com/utility-global-and-tata-steel-plan-to-deploy-utilitys-first-industrial-h2gen-project-in-india/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "GeoComputing Signs Memorandum of Understanding with Gold Hydrogen to Explore Private AI for Subsurface Workflows",
-      "url": "https://hydrogen-central.com/geocomputing-signs-memorandum-of-understanding-with-gold-hydrogen-to-explore-private-ai-for-subsurface-workflows/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "ACME Group Moves Forward with a $3.6 Billion Green Ammonia Project in Odisha",
-      "url": "http://www.hydrogenfuelnews.com/acme-group-moves-forward-with-a-3-6-billion-green-ammonia-project-in-odisha/8577095/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "New Collaboration For Hydrogen Production in Southern Spain",
-      "url": "http://www.hydrogenfuelnews.com/new-collaboration-set-to-revolutionize-hydrogen-production-in-southern-spain/8577094/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Ballard to invest $120m in growing hydrogen generator fleet over two years",
-      "url": "https://hydrogeneurope.eu/ballard-to-invest-120m-in-growing-hydrogen-generator-fleet-over-two-years/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "Ceres Power Partners with European Energy Firm to Expand Solid Oxide Fuel-Cell Manufacturing",
-      "url": "http://www.hydrogenfuelnews.com/ceres-power-partners-with-european-energy-firm-to-expand-solid-oxide-fuel-cell-m/8577076/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-16"
     }
   ]
 }
