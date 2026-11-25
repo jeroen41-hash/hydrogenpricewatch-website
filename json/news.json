@@ -1,75 +1,124 @@
 {
   "status": "ok",
-  "updated": "2026-11-24T06:10:07Z",
+  "updated": "2026-11-25T06:10:07Z",
   "items": [
     {
-      "title": "Takenaka Corporation Proves Seasonal Hydrogen Storage in Apartment Block",
-      "url": "https://fuelcellsworks.com/2026/11/22/electrolyzer/takenaka-corporation-proves-seasonal-hydrogen-storage-in-apartment-block",
+      "title": "Tokyo and Yamanashi Governors Set Out Green Hydrogen Zone Vision at Fuji Hydrogen Summit 2026",
+      "url": "https://fuelcellsworks.com/2026/11/23/h2/tokyo-and-yamanashi-governors-set-out-green-hydrogen-zone-vision-at-fuji-hydrogen-summit-2026",
       "source": "Fuel Cells Works",
       "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Moeve Supplies First Green Hydrogen-Based E-SAF for Spanish Inter-City Flight",
+      "url": "https://fuelcellsworks.com/2026/11/24/h2/moeve-supplies-first-green-hydrogen-based-e-saf-for-spanish-inter-city-flight",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Cranfield Aerospace Drops Project Fresson Hydrogen Passenger Aircraft, Pivots to Hydrogen Drones",
+      "url": "https://fuelcellsworks.com/2026/11/24/h2/cranfield-aerospace-drops-project-fresson-hydrogen-passenger-aircraft-pivots-to-hydrogen-drones",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Germany Breaks Ground on 10MW Green Hydrogen Plant With 30-Tonne Underground Storage Capacity",
+      "url": "https://fuelcellsworks.com/2026/11/19/electrolyzer/germany-breaks-ground-on-10mw-green-hydrogen-plant-with-30-tonne-underground-storage-capacity",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Windcat Orders Second Damen MP-ASV With Hydrogen-Capable Auxiliary Power System",
+      "url": "https://fuelcellsworks.com/2026/11/24/h2/windcat-orders-second-damen-mp-asv-with-hydrogen-capable-auxiliary-power-system",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Sunshine Green Hydrogen Ships First AEM Electrolyser to Singapore in Export Milestone",
+      "url": "https://fuelcellsworks.com/2026/11/24/clean-energy/sunshine-green-hydrogen-ships-first-aem-electrolyser-to-singapore-in-export-milestone",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Brazil Inaugurates Hydrogen-Powered Boat and Dedicated Pier in Bel\u00e9m",
+      "url": "https://fuelcellsworks.com/2026/11/24/electrolyzer/brazil-inaugurates-hydrogen-powered-boat-and-dedicated-pier-in-belem",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Woerden Municipal Executive Clears Europabaan Hydrogen Refuelling Station Over Neighbourhood Objections",
+      "url": "https://fuelcellsworks.com/2026/11/23/electrolyzer/woerden-municipal-executive-clears-europabaan-hydrogen-refuelling-station-over-neighbourhood-objections",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "ONE SCIENTIFIC and AMBARtec Sign Letter of Intent for Hydrogen Pilot in Germany",
+      "url": "https://fuelcellsworks.com/2026/11/19/h2/one-scientific-and-ambartec-sign-letter-of-intent-for-hydrogen-pilot-in-germany",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Recycled Steel Impurities Could Help Protect Hydrogen Pipelines From Damage",
+      "url": "https://fuelcellsworks.com/2026/11/22/h2/recycled-steel-impurities-could-help-protect-hydrogen-pipelines-from-damage",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Plug Power's Turnaround: Focus on Green Hydrogen Demand Recovery",
+      "url": "http://www.hydrogenfuelnews.com/plug-power-s-turnaround-focus-on-green-hydrogen-demand-recovery/8577150/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "ONE SCIENTIFIC and AMBARtec Launch Pilot Project for Integrated Hydrogen Production and Storage in Germany",
+      "url": "http://www.hydrogenfuelnews.com/one-scientific-and-ambartec-launch-pilot-project-for-integrated-hydrogen-product/8577148/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "T\u00e9cnicas Reunidas will execute three hydrogen-ready combined-cycle gas power plants for RWE in Germany",
+      "url": "https://hydrogeneurope.eu/tecnicas-reunidas-will-execute-three-hydrogen-ready-combined-cycle-gas-power-plants-for-rwe-in-germany/",
+      "source": "Hydrogen Europe",
+      "category": "Policy",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Catalonia Unveils Comprehensive Strategy for Renewable Hydrogen and Circular Carbon at H2CAT Innovation Summit",
+      "url": "http://www.hydrogenfuelnews.com/catalonia-unveils-comprehensive-strategy-for-renewable-hydrogen-and-circular-car/8577145/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-23"
     },
     {
-      "title": "Stegra Moves Closer to Domestic Iron Ore Supply for Swedish Green Hydrogen Steel Project",
-      "url": "https://fuelcellsworks.com/2026/11/23/h2/stegra-moves-closer-to-domestic-iron-ore-supply-for-swedish-green-hydrogen-steel-project",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
+      "title": "Hydrogen Fuel-Cell Truck Completes Record Journey Across Canada",
+      "url": "http://www.hydrogenfuelnews.com/hydrogen-fuel-cell-truck-completes-record-journey-across-canada/8577143/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-23"
     },
     {
-      "title": "Study Finds LOHC Hydrogen Trains Could Match Diesel Operating Costs on Regional Rail Routes",
-      "url": "https://fuelcellsworks.com/2026/11/23/fuel-cells/study-finds-lohc-hydrogen-trains-could-match-diesel-operating-costs-on-regional-rail-routes",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
+      "title": "GP JOULE Secures REDcert-EU Certification for Bremerhaven Hydrogen Project",
+      "url": "http://www.hydrogenfuelnews.com/gp-joule-secures-redcert-eu-certification-for-bremerhaven-hydrogen-project/8577142/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-23"
     },
     {
-      "title": "Green Cat Hydrogen\u2019s Creca Hydrogen Facility Secures Planning Permission",
-      "url": "https://fuelcellsworks.com/2026/11/23/electrolyzer/green-cat-hydrogen-s-creca-hydrogen-facility-secures-planning-permission",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-23"
-    },
-    {
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Nov. 16-20, 2026",
-      "url": "https://fuelcellsworks.com/2026/11/21/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-nov-16-20-2026",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-23"
-    },
-    {
-      "title": "Enapter AG Completes Capital Increase \u2013 Runshihua Group Joins as Strategic Investor",
-      "url": "https://fuelcellsworks.com/2026/11/23/electrolyzer/enapter-ag-completes-capital-increase-runshihua-group-joins-as-strategic-investor",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-23"
-    },
-    {
-      "title": "Chemelot\u2019s Green Future Is Stalling \u2014 and the Collapse of Its Waste-to-Hydrogen Plan Shows Exactly Why",
-      "url": "https://fuelcellsworks.com/2026/11/22/h2/chemelot-s-green-future-is-stalling-and-the-collapse-of-its-waste-to-hydrogen-plan-shows-exactly-why",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-23"
-    },
-    {
-      "title": "Liquid Energy Design and Thyssenkrupp Decarbon Technologies Partner to Develop E-Fuel Plants in North-East Sweden",
-      "url": "https://fuelcellsworks.com/2026/11/23/clean-energy/liquid-energy-design-and-thyssenkrupp-decarbon-technologies-partner-to-develop-e-fuel-plants-in-north-east-sweden",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-23"
-    },
-    {
-      "title": "Nine Bids Submitted for \u20ac5M Industrial Hydrogen Fund as City Considers Bigger Programme",
-      "url": "https://fuelcellsworks.com/2026/11/22/h2/nine-bids-submitted-for-5m-industrial-hydrogen-fund-as-city-considers-bigger-programme",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-23"
-    },
-    {
-      "title": "T\u00e9cnicas Reunidas Will Execute Three Hydrogen-Ready Combined-Cycle Gas Power Plants for RWE in Germany",
-      "url": "https://fuelcellsworks.com/2026/11/23/h2/tecnicas-reunidas-will-execute-three-hydrogen-ready-combined-cycle-gas-power-plants-for-rwe-in-germany",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
+      "title": "Moeve and World2Fly Demonstrate Sustainable Aviation Fuel Transition on Madrid-Lisbon Flight",
+      "url": "http://www.hydrogenfuelnews.com/moeve-and-world2fly-demonstrate-sustainable-aviation-fuel-transition-on-madrid-l/8577141/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
       "date": "2026-11-23"
     },
     {
@@ -106,48 +155,6 @@
       "source": "Hydrogen Fuel News",
       "category": "Market",
       "date": "2026-11-22"
-    },
-    {
-      "title": "China's Green Fuels Initiative: Insights from Suqian's Hydrogen Production Development",
-      "url": "http://www.hydrogenfuelnews.com/china-s-green-fuels-initiative-insights-from-suqian-s-hydrogen-production-develo/8577132/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-22"
-    },
-    {
-      "title": "Moroccan Hydrogen: The Price of Renewable Resources Doesn't Guarantee Competitiveness",
-      "url": "http://www.hydrogenfuelnews.com/moroccan-hydrogen-the-price-of-renewable-resources-doesn-t-guarantee-competitive/8577130/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-22"
-    },
-    {
-      "title": "India's Electrolyser Manufacturing Delays: Navigating Market Demand and Policy Incentives",
-      "url": "http://www.hydrogenfuelnews.com/india-s-electrolyser-manufacturing-delays-navigating-market-demand-and-policy-in/8577128/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-21"
-    },
-    {
-      "title": "Ballard Power Systems Acquires GeoPura: A Strategic Leap in Hydrogen Energy Solutions",
-      "url": "http://www.hydrogenfuelnews.com/ballard-power-systems-acquires-geopura-a-strategic-leap-in-hydrogen-energy-solut/8577127/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-21"
-    },
-    {
-      "title": "thyssenkrupp nucera Launches Electrolyser Cell Assembly Hub in Portugal to Support Green Hydrogen Production",
-      "url": "http://www.hydrogenfuelnews.com/thyssenkrupp-nucera-launches-electrolyser-cell-assembly-hub-in-portugal-to-suppo/8577122/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-21"
-    },
-    {
-      "title": "Plug Power and Galp Advance Renewable Hydrogen Project in Portugal",
-      "url": "http://www.hydrogenfuelnews.com/plug-power-and-galp-advance-renewable-hydrogen-project-in-portugal/8577121/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-21"
     },
     {
       "title": "Plug Power \u2013 GenEco\u2122 Electrolyzer Now Operational at Avina\u2019s California Plant, Adding Commercial Hydrogen Capacity in North America",
@@ -201,13 +208,6 @@
     {
       "title": "Hydrogen Networks as a Location Advantage: New Study Examines Their Economic Importance for Eastern Germany",
       "url": "https://hydrogen-central.com/hydrogen-networks-as-a-location-advantage-new-study-examines-their-economic-importance-for-eastern-germany/",
-      "source": "Hydrogen Central",
-      "category": "Market",
-      "date": "2026-11-21"
-    },
-    {
-      "title": "SK Innovation Unveils Lithium-Engineered Water Electrolysis Catalyst to Advance e-SAF Production",
-      "url": "https://hydrogen-central.com/sk-innovation-unveils-lithium-engineered-water-electrolysis-catalyst-to-advance-e-saf-production/",
       "source": "Hydrogen Central",
       "category": "Market",
       "date": "2026-11-21"
