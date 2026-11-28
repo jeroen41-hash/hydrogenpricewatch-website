@@ -3,7 +3,7 @@
   "source": "CEGH GreenHydrogen Index",
   "source_url": "https://www.cegh.at/en/greengas/cegh-greenhydrogen-index/",
   "publication_date": "2026-11-26",
-  "updated": "2026-11-27T06:10:08Z",
+  "updated": "2026-11-28T06:10:12Z",
   "unit_basis": "EUR/MWh, High Heating Value (HHV)",
   "conversion": {
     "kwh_per_kg_hhv": 39.4,
@@ -12,14 +12,14 @@
   "ppa100": {
     "label": "GreenHydrogen Index \u2014 PPA 100% (RED II / Delegated Act compliant)",
     "delivery_period": "10-Year PPA Pay-as-Produced",
-    "eur_per_mwh": 170.031,
-    "eur_per_kg": 6.7
+    "eur_per_mwh": 170.33,
+    "eur_per_kg": 6.71
   },
   "ppa40": {
     "label": "GreenHydrogen PPA 40 Index (not compliant)",
     "delivery_period": "10-Year Pay-as-Produced",
-    "eur_per_mwh": 175.042,
-    "eur_per_kg": 6.9
+    "eur_per_mwh": 176.067,
+    "eur_per_kg": 6.94
   },
   "spot": {
     "label": "GreenHydrogen Spot Index (not compliant)",

@@ -1,7 +1,98 @@
 {
   "status": "ok",
-  "updated": "2026-11-27T06:10:06Z",
+  "updated": "2026-11-28T06:10:10Z",
   "items": [
+    {
+      "title": "Storengy Expands Hydrogen Storage Strategies with New Cavern Projects in France and Germany",
+      "url": "http://www.hydrogenfuelnews.com/storengy-expands-hydrogen-storage-strategies-with-new-cavern-projects-in-france-/8577184/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "INPEX, BASF, and JGC's Integrated Blue Hydrogen and Ammonia Project Begins Operations in Japan",
+      "url": "http://www.hydrogenfuelnews.com/inpex-basf-and-jgc-s-integrated-blue-hydrogen-and-ammonia-project-begins-operati/8577181/",
+      "source": "Hydrogen Fuel News",
+      "category": "Market",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "Mercedes-Benz Trucks to Launch 100 NextGenH2 Hydrogen Trucks in 2027",
+      "url": "https://fuelcellsworks.com/2026/11/25/fuel-cells/mercedes-benz-trucks-to-launch-100-nextgenh2-hydrogen-trucks-in-2027",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "German MPs Visit Hydrogen-Powered Liebherr L 566 H Wheel Loader Trial in Bremerhaven",
+      "url": "https://fuelcellsworks.com/2026/11/26/fuel-cells/german-mps-visit-hydrogen-powered-liebherr-l-566-h-wheel-loader-trial-in-bremerhaven",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "BASF Receives RFNBO Certification for Ammonia Produced From Renewable Hydrogen at Its Ludwigshafen Site",
+      "url": "https://fuelcellsworks.com/2026/11/26/h2/basf-receives-rfnbo-certification-for-ammonia-produced-from-renewable-hydrogen-at-its-ludwigshafen-site",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "Water Is Becoming a Site-Selection Factor for Green Hydrogen \u2014 Not Just an Operational Detail",
+      "url": "https://fuelcellsworks.com/2026/11/24/h2/water-is-becoming-a-site-selection-factor-for-green-hydrogen-not-just-an-operational-detail",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "Dutch Greenhouses Could Become Green Hydrogen Producers \u2014 and Use the Waste Heat to Grow Vegetables",
+      "url": "https://fuelcellsworks.com/2026/11/26/h2/dutch-greenhouses-could-become-green-hydrogen-producers-and-use-the-waste-heat-to-grow-vegetables",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "Fraunhofer Confirms Performance of Stiesdal\u2019s Electrolyser",
+      "url": "https://fuelcellsworks.com/2026/11/27/electrolyzer/fraunhofer-confirms-performance-of-stiesdal-s-electrolyser",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "Schleswig-Holstein Announces Funding for the Hydrogen Core Network Pipeline to Brunsb\u00fcttel",
+      "url": "https://fuelcellsworks.com/2026/11/26/electrolyzer/schleswig-holstein-announces-funding-for-the-hydrogen-core-network-pipeline-to-brunsbuttel",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "Acwa and SAIS Sign MoU to Develop Security Requirements for Green Hydrogen and Ammonia Plants",
+      "url": "https://fuelcellsworks.com/2026/11/27/h2/sais-acwa-sign-mou-to-develop-industrial-security-requirements-for-green-hydrogen-green-ammonia-facilities",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "Hydrogen's Hidden Losses Create Business Opportunity for Leak-Detection Specialist",
+      "url": "https://fuelcellsworks.com/2026/11/21/h2/hydrogen-leak-detection-start-up-targets-billion-euro-losses-from-invisible-h-escapes",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "ULEMCo Powers First Hydrogen-Converted Fendt Tractor",
+      "url": "https://fuelcellsworks.com/2026/11/27/news/ulemco-powers-first-hydrogen-converted-fendt-tractor",
+      "source": "Fuel Cells Works",
+      "category": "Infrastructure",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "The Hydrogen Stream: BP, Iberdrola start operations at Spain\u2019s largest green hydrogen plant",
+      "url": "https://www.pv-magazine.com/2026/11/27/the-hydrogen-stream-bp-iberdrola-start-operations-at-spains-largest-green-hydrogen-plant/",
+      "source": "pv magazine (hydrogen tag)",
+      "category": "Technology",
+      "date": "2026-11-27"
+    },
     {
       "title": "Fraunhofer confirms performance of Stiesdal electrolyser",
       "url": "https://hydrogen-central.com/fraunhofer-confirms-performance-of-stiesdal-electrolyser/",
@@ -34,6 +125,13 @@
       "title": "Envision Energy Partners with Greensteel Australia on 400 MW Green Hydrogen System for Low-Carbon Steelmaking",
       "url": "https://hydrogen-central.com/envision-energy-partners-with-greensteel-australia-on-400-mw-green-hydrogen-system-for-low-carbon-steelmaking/",
       "source": "Hydrogen Central",
+      "category": "Market",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "South Africa Advances Green Hydrogen Initiatives through Strategic Collaborations",
+      "url": "http://www.hydrogenfuelnews.com/south-africa-advances-green-hydrogen-initiatives-through-strategic-collaboration/8577179/",
+      "source": "Hydrogen Fuel News",
       "category": "Market",
       "date": "2026-11-27"
     },
@@ -73,52 +171,10 @@
       "date": "2026-11-27"
     },
     {
-      "title": "Fincantieri Delivers Viking Libra Cruise Ship With Liquefied Hydrogen and Fuel-Cell Propulsion",
-      "url": "https://fuelcellsworks.com/2026/11/26/electrolyzer/fincantieri-delivers-viking-libra-cruise-ship-with-liquefied-hydrogen-and-fuel-cell-propulsion",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "Upper Austria and Bavaria Target Cross-Border Hydrogen Supply and Storage Network",
-      "url": "https://fuelcellsworks.com/2026/11/25/h2/upper-austria-and-bavaria-strengthen-hydrogen-cooperation-to-develop-cross-border-supply-and-storage-network",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "Charbone Reports C$1.2m [$840,000] in Nine-Month Gas Income as Q3 Margin Jumps to 26%",
-      "url": "https://fuelcellsworks.com/2026/11/26/h2/charbone-reports-c-1-2m-840-000-in-nine-month-gas-income-as-q3-margin-jumps-to-26-percent",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "Danish Hydrogen Companies Slam Government's 2030 Fuel Quota as Too Weak to Support Green Hydrogen Industry",
-      "url": "https://fuelcellsworks.com/2026/11/26/h2/danish-hydrogen-companies-slam-government-s-2030-fuel-quota-as-too-weak-to-support-green-hydrogen-industry",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "Fraunhofer Develops Lightweight Hybrid Bipolar Plates for Fuel Cells",
-      "url": "https://fuelcellsworks.com/2026/11/22/fuel-cells/fraunhofer-develops-lightweight-hybrid-bipolar-plates-for-fuel-cells",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-26"
-    },
-    {
       "title": "H2Haul demonstrates hydrogen\u2019s readiness to deliver heavy-duty transport across Europe",
       "url": "https://hydrogeneurope.eu/h2haul-demonstrates-hydrogens-readiness-to-deliver-heavy-duty-transport-across-europe/",
       "source": "Hydrogen Europe",
       "category": "Policy",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "Germany Needs Hydrogen Cavern Storage at Scale \u2014 DIW Study Sets Out the Numbers",
-      "url": "https://fuelcellsworks.com/2026/11/25/h2/germany-needs-hydrogen-cavern-storage-at-scale-diw-study-sets-out-the-numbers",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
       "date": "2026-11-26"
     },
     {
@@ -133,34 +189,6 @@
       "url": "http://www.hydrogenfuelnews.com/first-hydrogen-launches-innovative-unmanned-ground-vehicle-a-milestone-in-roboti/8577175/",
       "source": "Hydrogen Fuel News",
       "category": "Market",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "St. Thomas Expands Microgrid Testbed for Fuel Cells, Batteries, Solar and EV Integration",
-      "url": "https://fuelcellsworks.com/2026/11/15/fuel-cells/st-thomas-expands-microgrid-testbed-for-fuel-cells-batteries-solar-and-ev-integration",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "H2Mexico Calls on Federal Government to Introduce Tax Incentives for $22.4Bn Hydrogen Portfolio",
-      "url": "https://fuelcellsworks.com/2026/11/26/h2/h2mexico-calls-on-federal-government-to-introduce-tax-incentives-for-22-4bn-hydrogen-portfolio",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "Beijing-Tianjin-Hebei Target 100 Billion Yuan Hydrogen Industry as Beijing\u2019s 2026\u20132030 Plan Takes Shape",
-      "url": "https://fuelcellsworks.com/2026/11/23/h2/beijing-tianjin-hebei-target-100-billion-yuan-hydrogen-industry-as-beijing-s-2026-2030-plan-takes-shape",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "VTT Is Part of Hydrogen and Network Research Flagships \u2013 Research Council of Finland Awards Millions in Funding",
-      "url": "https://fuelcellsworks.com/2026/11/23/green-investment/vtt-is-part-of-hydrogen-and-network-research-flagships-research-council-of-finland-awards-millions-in-funding",
-      "source": "Fuel Cells Works",
-      "category": "Infrastructure",
       "date": "2026-11-26"
     },
     {
@@ -183,34 +211,6 @@
       "source": "Hydrogen Fuel News",
       "category": "Market",
       "date": "2026-11-26"
-    },
-    {
-      "title": "Next Hydrogen and H2 Manufacturing Collaborate to Advance Modular Hydrogen Production Systems in North America",
-      "url": "http://www.hydrogenfuelnews.com/next-hydrogen-and-h2-manufacturing-collaborate-to-advance-modular-hydrogen-produ/8577170/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "CF Industries to Acquire Mosaic's Faustina Ammonia Production Facility",
-      "url": "http://www.hydrogenfuelnews.com/cf-industries-to-acquire-mosaic-s-faustina-ammonia-production-facility/8577168/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "Dynelectro\u2019s solid oxide unit in Iceland reaches 86% efficiency with no stack degradation",
-      "url": "https://hydrogeneurope.eu/dynelectros-solid-oxide-unit-in-iceland-reaches-86-efficiency-with-no-stack-degradation/",
-      "source": "Hydrogen Europe",
-      "category": "Policy",
-      "date": "2026-11-25"
-    },
-    {
-      "title": "Alkeymia's Proyecto Pilar: A New Era for Green Hydrogen and Ammonia Production in Spain",
-      "url": "http://www.hydrogenfuelnews.com/alkeymia-s-proyecto-pilar-a-new-era-for-green-hydrogen-and-ammonia-production-in/8577158/",
-      "source": "Hydrogen Fuel News",
-      "category": "Market",
-      "date": "2026-11-25"
     }
   ]
 }
